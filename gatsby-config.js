@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
-    title: `SalesJump - WhatsApp for Squarespace`,
-    description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
+    title: `SalesJump - WhatsApp Chat For Squarespace`,
+    description: `WhatsApp Chat For Squarespace`,
     author: `@gatsbyjs`,
   },
   plugins: [
