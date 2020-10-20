@@ -138,12 +138,12 @@ const Banner = ({windowWidth}) => {
   } else {
     return (
       <>
-        <div style={{ fontSize: '9vw', textAlign: 'center' }}>
+        <div style={{ fontSize: '9vw', textAlign: 'center',  lineHeight: "1.3" }}>
           📞 WhatsApp Chat on your
                   <br />Squarespace online store. 🛍️
               </div>
-        <div style={{ fontSize: '4vw' }}>
-          Time to break the ice between you and your customer
+        <div style={{ fontSize: '4vw',  lineHeight: "1.3" }}>
+          Add the human touch to your store
               </div>
       </>
     );
