@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css?family=Rubik');
+
+html {
+  font-family: 'Rubik', sans-serif;
+}
+
+.flex-container {
+  display: flex;
+  direction: rtl;
+}
+
+.flex-container > div {
+  margin: 10px;
+  padding: 20px;
+}
+
+.mybutton {
+  width: 100px;
+  height: 42px;
+  background-color: rgb(0, 183, 194);
+  color: rgb(255, 255, 255);
+  font-weight: 700;
+  font-size: 14px;
+  border-radius: 0.25rem;
+  line-height: 1.5;
+  margin-left: 5px;
+  border-color: rgb(0, 183, 194);
+}
+
+
+.rcard {
+  padding: 1rem;
+}
+
+.rcards {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: grid;
+  grid-gap: 1rem;
+}
+
+/* Screen larger than 600px? 2 column */
+@media (min-width: 600px) {
+  .rcards { 
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+/* Screen larger than 900px? 3 columns */
+@media (min-width: 900px) {
+  .rcards { 
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+body {
+  margin: 0;
+  font-family: 'Rubik';
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: 'Rubik';
+}
