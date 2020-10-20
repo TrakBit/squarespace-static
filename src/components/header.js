@@ -24,8 +24,8 @@ const Header = ({ siteTitle }) => (
         <div className='rcard'>
           <div className="flex-container">
             <button className="mybutton">Support</button>
-            <button className="mybutton" onClick={() => window.location.href='https://salesjump.xyz/register'}>Join</button>
-            <button className="mybutton"onClick={() => window.location.href='https://salesjump.xyz/login'}>Login</button>
+            <button className="mybutton" onClick={() => window.location.href='https://app.salesjump.xyz/register'}>Join</button>
+            <button className="mybutton"onClick={() => window.location.href='https://app.salesjump.xyz/login'}>Login</button>
           </div>
         </div>
 
