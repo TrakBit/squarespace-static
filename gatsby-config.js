@@ -2,7 +2,7 @@ module.exports = {
   siteMetadata: {
     title: `SalesJump - WhatsApp Chat For Squarespace`,
     description: `WhatsApp Chat For Squarespace`,
-    author: `@gatsbyjs`,
+    author: `@SalesJump`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
@@ -27,6 +27,14 @@ module.exports = {
         icon: `src/images/arrow.png`, // This path is relative to the root of the site.
       }
     },
-    `gatsby-plugin-styled-components`
+    `gatsby-plugin-styled-components`,
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `markdown-pages`,
+        path: `${__dirname}/src/markdown-pages`,
+      },
+    },
+    `gatsby-transformer-remark`
   ]
 }

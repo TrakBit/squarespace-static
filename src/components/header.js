@@ -13,12 +13,14 @@ const Header = ({ siteTitle }) => (
 
       <div className='rcards'>
         <div className='rcard'>
-          <img 
-            style={{
-              height: "70px"
-            }}
-            src={"https://firebasestorage.googleapis.com/v0/b/squarespace-chat.appspot.com/o/images%2Flogo.png?alt=media&token=7fcdd79c-dfa6-4d24-9116-1f318520ed3d"}
-          />
+          <Link to={"/"}>
+            <img 
+              style={{
+                height: "70px"
+              }}
+              src={"https://firebasestorage.googleapis.com/v0/b/squarespace-chat.appspot.com/o/images%2Flogo.png?alt=media&token=7fcdd79c-dfa6-4d24-9116-1f318520ed3d"}
+            />
+          </Link>
         </div>
 
         <div className='rcard'>
