@@ -26,8 +26,9 @@ export default function Template({
     <Layout >
       <SEO 
         name={"Whatsapp Chat For Squarespace"}
-        title={"Whatsapp Chat For Squarespace"}
+        title={"SalesJump"}
         description={"Whatsapp Chat For Squarespace"}
+        keywords={[`Squarespace`, `Whatsapp`]}
       />
       <Container>
           <div style={{fontSize: '45px', textAlign: 'center', lineHeight: "1.2", fontWeight: "600"}}>
