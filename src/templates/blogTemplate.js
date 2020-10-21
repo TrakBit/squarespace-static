@@ -23,18 +23,23 @@ export default function Template({
   const { frontmatter, html } = markdownRemark
   return (
     <Layout >
-    <Container>
-        <div style={{fontSize: '45px', textAlign: 'center', lineHeight: "1.2", fontWeight: "600"}}>
-          {frontmatter.title}
-        </div>
-        <div>
-          {frontmatter.date}
-        </div>
-        <div
-          style={{marginTop: "40px", padding: '2rem 11rem 5rem 11rem'}}
-          dangerouslySetInnerHTML={{ __html: html }}
-        />
-    </Container>
+      <SEO 
+        name={"Whatsapp Chat For Squarespace"}
+        title={"Whatsapp Chat For Squarespace"}
+        description={"Whatsapp Chat For Squarespace"}
+      />
+      <Container>
+          <div style={{fontSize: '45px', textAlign: 'center', lineHeight: "1.2", fontWeight: "600"}}>
+            {frontmatter.title}
+          </div>
+          <div>
+            {frontmatter.date}
+          </div>
+          <div
+            style={{marginTop: "40px", padding: '2rem 11rem 5rem 11rem'}}
+            dangerouslySetInnerHTML={{ __html: html }}
+          />
+      </Container>
     </Layout>
   )
 }
