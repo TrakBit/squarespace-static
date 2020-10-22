@@ -43,6 +43,7 @@ module.exports = {
         host: 'https://salesjump.xyz',
         policy: [{ userAgent: '*', allow: '/' }]
       }
-    }
+    },
+    `gatsby-plugin-sitemap`
   ]
 }
