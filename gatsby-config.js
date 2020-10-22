@@ -3,6 +3,7 @@ module.exports = {
     title: `SalesJump - WhatsApp Chat For Squarespace`,
     description: `WhatsApp Chat For Squarespace`,
     author: `@SalesJump`,
+    siteUrl: 'https://salesjump.xyz'
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
