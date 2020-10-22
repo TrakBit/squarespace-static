@@ -65,9 +65,10 @@ const IndexPage = () => {
     <Layout >
       <SEO 
         name={"Whatsapp Chat For Squarespace"}
-        title={"SalesJump"}
+        title={"SalesJump | Whatsapp Chat For Squarespace"}
         description={"Whatsapp Chat For Squarespace"}
         keywords={[`Squarespace`, `Whatsapp`]}
+        url={'https://salesjump.xyz'}
       />
       <Container style={{ backgroundColor: "#f4f9f4" }}>
         <Banner windowWidth={windowWidth}/>
