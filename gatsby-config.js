@@ -35,6 +35,13 @@ module.exports = {
         path: `${__dirname}/src/markdown-pages`,
       },
     },
-    `gatsby-transformer-remark`
+    `gatsby-transformer-remark`,
+    {
+      resolve: 'gatsby-plugin-robots-txt',
+      options: {
+        host: 'https://salesjump.xyz',
+        policy: [{ userAgent: '*', allow: '/' }]
+      }
+    }
   ]
 }
