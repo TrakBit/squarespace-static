@@ -26,8 +26,8 @@ export default function Template({
     <Layout >
       <SEO 
         name={"Whatsapp Chat For Squarespace"}
-        title={"SalesJump | Whatsapp Chat For Squarespace"}
-        description={"Whatsapp Chat For Squarespace"}
+        title={"SalesJump | "+ frontmatter.title}
+        description={frontmatter.title}
         keywords={[`Squarespace`, `Whatsapp`]}
         url={'https://salesjump.xyz' + frontmatter.slug}
       />
