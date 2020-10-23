@@ -11,9 +11,8 @@ const FlexCol = styled.div`
 `;
 
 const Container = styled(FlexCol)`
-  padding: 1rem;
+  padding: 2rem 11rem 5rem 11rem;
   align-items: center;
-  padding: 1rem;
   justify-content: space-between;
 `;
 
@@ -39,7 +38,7 @@ export default function Template({
             {frontmatter.date}
           </div>
           <div
-            style={{marginTop: "40px", padding: '2rem 11rem 5rem 11rem'}}
+            style={{marginTop: "80px"}}
             dangerouslySetInnerHTML={{ __html: html }}
           />
       </Container>

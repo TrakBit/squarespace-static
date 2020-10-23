@@ -1,11 +1,11 @@
 ---
 slug: "/blog/whatsapp-chat-squarespace"
-date: "2019-05-04"
+date: "2020-10-20"
 title: "WhatsApp Chat For Squarespace"
 ---
 
 ## Observation
-Recently witnessed lot of Squarespace store owners trying to find an intuitive way to avail WhatsApp chat in their store site to improve customer support. 
+Recently witnessed lot of Squarespace store owners trying to find an intuitive way to avail WhatsApp chat in their store site to improve customer support.
 
 ## Existing solutions
 Most of the existing solutions felt too complex for squarespace crowd cause they make them copy paste 100's of lines of JavaScript snippet. Squarespace itself is a simple platform but the add-ons treated the user-base like software developers.
