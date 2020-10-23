@@ -9,6 +9,7 @@ import React from "react"
 import PropTypes from "prop-types"
 import { Helmet } from "react-helmet"
 import { useStaticQuery, graphql } from "gatsby"
+import {JsonLd} from './jsonld'
 
 function SEO({ description, lang, meta, title, keywords, url}) {
   const { site } = useStaticQuery(
@@ -82,7 +83,21 @@ function SEO({ description, lang, meta, title, keywords, url}) {
           : []
       )
       .concat(meta)}
-    />
+    >
+        <JsonLd>
+          {{
+            '@context': 'https://schema.org',
+            '@type': 'Organization',
+            url: 'https://salesjump.xyz/',
+            name: 'SalesJump',
+            contactPoint: {
+              '@type': 'ContactPoint',
+              telephone: '91-9315368036',
+              contactType: 'Customer service',
+            },
+          }}
+        </JsonLd>
+    </Helmet>
   )
 }
 
