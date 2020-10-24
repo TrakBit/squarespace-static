@@ -128,7 +128,10 @@ const IndexPage = () => {
         <div className="rcard">
 
           <Container>
-            <a style={{ textDecoration: 'none', color: '#000000' }} href={"https://salesjump.xyz/blog/whatsapp-chat-squarespace"}>
+            <a 
+              style={{ textDecoration: 'none', color: '#000000' }} 
+              href={"https://salesjump.xyz/blog/whatsapp-chat-squarespace"}
+            >
               <div className="card">
                 <img
                   src={"https://firebasestorage.googleapis.com/v0/b/squarespace-chat.appspot.com/o/images%2Fsquarespace-whatsapp.png?alt=media&token=12475eb1-d5cd-400f-b996-12ecff1850ef"}
@@ -149,7 +152,10 @@ const IndexPage = () => {
 
         <div className="rcard">
           <Container>
-            <a style={{ textDecoration: 'none', color: '#000000' }} href={"https://salesjump.xyz/blog/squarespace-help-chat-live"}>
+            <a 
+              style={{ textDecoration: 'none', color: '#000000' }}
+              href={"https://salesjump.xyz/blog/squarespace-help-chat-live"}
+            >
               <div className="card">
                 <img
                   src={"https://firebasestorage.googleapis.com/v0/b/squarespace-chat.appspot.com/o/images%2Fsquarespace-whatsapp-widget.jpeg?alt=media&token=3b849960-7dde-4ab7-81a3-27770d0e4ec4"}
