@@ -13,9 +13,9 @@ const FlexCol = styled.div`
 const Container = styled(FlexCol)`
   padding: 1rem;
   align-items: center;
-  padding: 1rem;
   justify-content: space-between;
 `;
+
 
 const OutlineButton = styled.button`
   height: 42px;
@@ -61,7 +61,7 @@ const IndexPage = () => {
 
   return (
     <Layout >
-      <SEO 
+      <SEO
         name={"Whatsapp Chat For Squarespace"}
         title={"SalesJump | Whatsapp Chat For Squarespace"}
         description={"Whatsapp Chat For Squarespace"}
@@ -69,7 +69,7 @@ const IndexPage = () => {
         url={'https://salesjump.xyz'}
       />
       <Container style={{ backgroundColor: "#f4f9f4" }}>
-        <Banner windowWidth={windowWidth}/>
+        <Banner windowWidth={windowWidth} />
       </Container>
       <Container>
         <img
@@ -79,25 +79,26 @@ const IndexPage = () => {
             borderColor: '#00000',
             paddingTop: '70px'
           }}
+          alt="squarespace whatsapp"
           src={"https://firebasestorage.googleapis.com/v0/b/squarespace-chat.appspot.com/o/images%2Fsquarespace-whatsapp.png?alt=media&token=12475eb1-d5cd-400f-b996-12ecff1850ef"}
         />
       </Container>
 
       <Container style={{ margin: '0 auto', width: screenWidth }}>
-        <div style={{ fontWeight: "600", fontSize: '35px', textAlign: 'center',  lineHeight: "1.3" }}>
+        <div style={{ fontWeight: "600", fontSize: '35px', textAlign: 'center', lineHeight: "1.3" }}>
           But why add a whatsApp chat ?
                 </div>
-        <div style={{ fontSize: '25px', marginTop: "20px", lineHeight: "1.3"}}>
+        <div style={{ fontSize: '25px', marginTop: "20px", lineHeight: "1.3" }}>
           Modern online businesses run on<a style={highlight}><b>{' small town rules. '}</b></a>
           There needs to be a personal connection between you and the customer.
         </div>
       </Container>
 
       <Container style={{ margin: '0 auto', width: screenWidth }}>
-        <div style={{fontWeight: "600",  fontSize: '35px', textAlign: 'center', marginTop: "20px",  lineHeight: "1.3"}}>
+        <div style={{ fontWeight: "600", fontSize: '35px', textAlign: 'center', marginTop: "20px", lineHeight: "1.3" }}>
           Your customer have questions and they are looking for answers.
         </div>
-        <p style={{ fontSize: '25px', marginTop: "20px", lineHeight: "1.3"}}>
+        <p style={{ fontSize: '25px', marginTop: "20px", lineHeight: "1.3" }}>
           Customers wanna know
           <a style={highlight}><b>{' if there are more selections '}</b></a>
           and <a style={highlight}><b>{' when will it be shipped '}</b></a>, your presence is needed
@@ -105,12 +106,12 @@ const IndexPage = () => {
       </Container>
 
       <Container style={{ margin: '0 auto', width: screenWidth }}>
-        <div style={{ fontSize: '45px', textAlign: 'center', lineHeight: "1.2", fontWeight: "600"}}>
+        <div style={{ fontSize: '45px', textAlign: 'center', lineHeight: "1.2", fontWeight: "600" }}>
           Why wait, when a 2 minute setup is all it takes
         </div>
-        <br/>
+        <br />
         <a href={'https://app.salesjump.xyz/register'}><OutlineButton> JOIN</OutlineButton></a>
-        <br/>
+        <br />
       </Container>
 
       <div style={{ textAlign: 'center', backgroundColor: '#f4f9f4', borderRadius: '30px', width: '90%', marginLeft: '5%' }}>
@@ -122,11 +123,57 @@ const IndexPage = () => {
           </h1>
         </div>
       </div>
+
+      <div className="rcards">
+        <div className="rcard">
+
+          <Container>
+            <a style={{ textDecoration: 'none', color: '#000000' }} href={"https://salesjump.xyz/blog/whatsapp-chat-squarespace"}>
+              <div className="card">
+                <img
+                  src={"https://firebasestorage.googleapis.com/v0/b/squarespace-chat.appspot.com/o/images%2Fsquarespace-whatsapp.png?alt=media&token=12475eb1-d5cd-400f-b996-12ecff1850ef"}
+                  alt="Avatar"
+                  style={{ width: '100%' }}
+                />
+                <Container>
+                  <h4>
+                    <b>
+                      WhatsApp Chat For Squarespace
+                    </b>
+                  </h4>
+                </Container>
+              </div>
+            </a>
+          </Container>
+        </div>
+
+        <div className="rcard">
+          <Container>
+            <a style={{ textDecoration: 'none', color: '#000000' }} href={"https://salesjump.xyz/blog/squarespace-help-chat-live"}>
+              <div className="card">
+                <img
+                  src={"https://firebasestorage.googleapis.com/v0/b/squarespace-chat.appspot.com/o/images%2Fsquarespace-whatsapp-widget.jpeg?alt=media&token=3b849960-7dde-4ab7-81a3-27770d0e4ec4"}
+                  alt="Avatar"
+                  style={{ width: '100%' }}
+                />
+                <Container>
+                  <h4>
+                    <b>
+                      Squarespace store owners help your customers by live chat support
+                    </b>
+                  </h4>
+                </Container>
+              </div>
+            </a>
+          </Container>
+        </div>
+      </div>
+
     </Layout>
   )
 }
 
-const Banner = ({windowWidth}) => {
+const Banner = ({ windowWidth }) => {
   if (windowWidth > 480) {
     return (
       <>
@@ -142,11 +189,11 @@ const Banner = ({windowWidth}) => {
   } else {
     return (
       <>
-        <div style={{ fontSize: '9vw', textAlign: 'center',  lineHeight: "1.3" }}>
+        <div style={{ fontSize: '9vw', textAlign: 'center', lineHeight: "1.3" }}>
           📞 WhatsApp Chat on your
                   <br />Squarespace online store. 🛍️
               </div>
-        <div style={{ fontSize: '4vw',  lineHeight: "1.3" }}>
+        <div style={{ fontSize: '4vw', lineHeight: "1.3" }}>
           Add the human touch to your store
               </div>
       </>
