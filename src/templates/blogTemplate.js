@@ -31,9 +31,9 @@ export default function Template({
         url={'https://salesjump.xyz' + frontmatter.slug}
       />
       <Container>
-          <div style={{fontSize: '45px', textAlign: 'center', lineHeight: "1.2", fontWeight: "600"}}>
+          <h1 style={{fontSize: '45px', textAlign: 'center', lineHeight: "1.2", fontWeight: "600"}}>
             {frontmatter.title}
-          </div>
+          </h1>
           <div>
             {frontmatter.date}
           </div>

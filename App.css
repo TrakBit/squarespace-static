@@ -4,6 +4,10 @@ html {
   font-family: 'Rubik', sans-serif;
 }
 
+h1 {
+  font-family: 'Rubik', sans-serif;
+}
+
 .flex-container {
   display: flex;
   direction: rtl;

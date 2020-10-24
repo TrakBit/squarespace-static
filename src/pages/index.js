@@ -85,9 +85,9 @@ const IndexPage = () => {
       </Container>
 
       <Container style={{ margin: '0 auto', width: screenWidth }}>
-        <div style={{ fontWeight: "600", fontSize: '35px', textAlign: 'center', lineHeight: "1.3" }}>
+        <h1 style={{ fontWeight: "600", fontSize: '35px', textAlign: 'center', lineHeight: "1.3" }}>
           But why add a whatsApp chat ?
-                </div>
+        </h1>
         <div style={{ fontSize: '25px', marginTop: "20px", lineHeight: "1.3" }}>
           Modern online businesses run on<a style={highlight}><b>{' small town rules. '}</b></a>
           There needs to be a personal connection between you and the customer.
@@ -95,9 +95,9 @@ const IndexPage = () => {
       </Container>
 
       <Container style={{ margin: '0 auto', width: screenWidth }}>
-        <div style={{ fontWeight: "600", fontSize: '35px', textAlign: 'center', marginTop: "20px", lineHeight: "1.3" }}>
+        <h1 style={{ fontWeight: "600", fontSize: '35px', textAlign: 'center', marginTop: "20px", lineHeight: "1.3" }}>
           Your customer have questions and they are looking for answers.
-        </div>
+        </h1>
         <p style={{ fontSize: '25px', marginTop: "20px", lineHeight: "1.3" }}>
           Customers wanna know
           <a style={highlight}><b>{' if there are more selections '}</b></a>
@@ -106,9 +106,9 @@ const IndexPage = () => {
       </Container>
 
       <Container style={{ margin: '0 auto', width: screenWidth }}>
-        <div style={{ fontSize: '45px', textAlign: 'center', lineHeight: "1.2", fontWeight: "600" }}>
+        <h1 style={{ fontSize: '45px', textAlign: 'center', lineHeight: "1.2", fontWeight: "600" }}>
           Why wait, when a 2 minute setup is all it takes
-        </div>
+        </h1>
         <br />
         <a href={'https://app.salesjump.xyz/register'}><OutlineButton> JOIN</OutlineButton></a>
         <br />
@@ -183,25 +183,25 @@ const Banner = ({ windowWidth }) => {
   if (windowWidth > 480) {
     return (
       <>
-        <div style={{ fontSize: '5vw', lineHeight: "1.5", fontWeight: "600" }}>
+        <h1 style={{ fontSize: '5vw', lineHeight: "1.5", fontWeight: "600" }}>
           📞 WhatsApp Chat on your
                   <br />Squarespace online store. 🛍️
-              </div>
-        <div style={{ fontSize: '2vw', lineHeight: "1.5", fontWeight: "600", marginTop: "20px" }}>
+        </h1>
+        <h1 style={{ fontSize: '2vw', lineHeight: "1.5", fontWeight: "600", marginTop: "20px" }}>
           Add the human touch to your store
-              </div>
+        </h1>
       </>
     );
   } else {
     return (
       <>
-        <div style={{ fontSize: '9vw', textAlign: 'center', lineHeight: "1.3" }}>
+        <h1 style={{ fontSize: '9vw', textAlign: 'center', lineHeight: "1.3" }}>
           📞 WhatsApp Chat on your
                   <br />Squarespace online store. 🛍️
-              </div>
-        <div style={{ fontSize: '4vw', lineHeight: "1.3" }}>
+        </h1>
+        <h1 style={{ fontSize: '4vw', lineHeight: "1.3" }}>
           Add the human touch to your store
-              </div>
+        </h1>
       </>
     );
   }
