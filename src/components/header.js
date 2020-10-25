@@ -19,7 +19,7 @@ const Header = ({ siteTitle }) => (
                 height: "70px"
               }}
               alt="squarespace whatsapp"
-              src={"https://firebasestorage.googleapis.com/v0/b/squarespace-chat.appspot.com/o/images%2Flogo.png?alt=media&token=7fcdd79c-dfa6-4d24-9116-1f318520ed3d"}
+              src={"https://firebasestorage.googleapis.com/v0/b/squarespace-chat.appspot.com/o/images%2Flogo.webp?alt=media&token=a94c78cb-ceea-4900-b3d7-d7fbef920d75"}
             />
           </Link>
         </div>
