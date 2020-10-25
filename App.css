@@ -6,15 +6,11 @@
 
 h1 {
   font-family: "Rubik";
-  font-display: swap;
 }
 
 html {
   font-family: "Rubik";
-  font-display: swap;
 }
-
-
 
 .flex-container {
   display: flex;
