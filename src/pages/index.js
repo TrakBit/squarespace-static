@@ -80,7 +80,7 @@ const IndexPage = () => {
             paddingTop: '70px'
           }}
           alt="squarespace whatsapp"
-          src={"https://firebasestorage.googleapis.com/v0/b/squarespace-chat.appspot.com/o/images%2Fsquarespace-whatsapp.png?alt=media&token=12475eb1-d5cd-400f-b996-12ecff1850ef"}
+          src={"https://firebasestorage.googleapis.com/v0/b/squarespace-chat.appspot.com/o/images%2Fsquarespace-whatsapp.webp?alt=media&token=85316663-0cd5-48a2-b946-4732162fad79"}
         />
       </Container>
 
@@ -134,7 +134,7 @@ const IndexPage = () => {
             >
               <div className="card">
                 <img
-                  src={"https://firebasestorage.googleapis.com/v0/b/squarespace-chat.appspot.com/o/images%2Fsquarespace-whatsapp.png?alt=media&token=12475eb1-d5cd-400f-b996-12ecff1850ef"}
+                  src={"https://firebasestorage.googleapis.com/v0/b/squarespace-chat.appspot.com/o/images%2Fsquarespace-whatsapp.webp?alt=media&token=85316663-0cd5-48a2-b946-4732162fad79"}
                   alt="Avatar"
                   style={{ width: '100%' }}
                 />
@@ -158,7 +158,7 @@ const IndexPage = () => {
             >
               <div className="card">
                 <img
-                  src={"https://firebasestorage.googleapis.com/v0/b/squarespace-chat.appspot.com/o/images%2Fsquarespace-whatsapp-widget.jpeg?alt=media&token=3b849960-7dde-4ab7-81a3-27770d0e4ec4"}
+                  src={"https://firebasestorage.googleapis.com/v0/b/squarespace-chat.appspot.com/o/images%2Fsquarespace-whatsapp-widget.webp?alt=media&token=e536f4b6-1ecc-4ef7-bd26-39bc08af2186"}
                   alt="Avatar"
                   style={{ width: '100%' }}
                 />

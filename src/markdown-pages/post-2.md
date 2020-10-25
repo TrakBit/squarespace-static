@@ -13,7 +13,7 @@ Your customer lands on your sleek designed squarespace store browsing through th
 The internet era is bringing the small town rules back. Store's cannot be faceless anymore, they need to follow the small town rules where customer and store owners have almost know each other personally. The customers need to feel to trusted and make no mistake **Trust is a feature** in today's competitive era.
 
 ## So how does SalesJump helps in this ?
-<img src="https://firebasestorage.googleapis.com/v0/b/squarespace-chat.appspot.com/o/images%2Fsquarespace-whatsapp.png?alt=media&token=12475eb1-d5cd-400f-b996-12ecff1850ef" alt="whatsapp squarespace" width="700"/>
+<img src="https://firebasestorage.googleapis.com/v0/b/squarespace-chat.appspot.com/o/images%2Fsquarespace-whatsapp.webp?alt=media&token=85316663-0cd5-48a2-b946-4732162fad79" alt="whatsapp squarespace" width="700"/>
 
 SalesJump allows users to integrate WhatsApp chat in squarespace store with their actual picture and the ability to chat to the store owner for any query to **build the bridge of trust**, our chat feature can allow to convert **hype of shopping into actionable purchase** since they know you are there for support and service.
 
