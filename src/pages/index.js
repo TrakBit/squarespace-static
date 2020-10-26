@@ -4,6 +4,7 @@ import styled from "styled-components"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import '../../App.css'
+require('typeface-rubik')
 
 const FlexCol = styled.div`
   display: flex;
