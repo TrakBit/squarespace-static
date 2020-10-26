@@ -1,9 +1,14 @@
 import React, { useEffect, useState } from "react"
 import styled from "styled-components"
 
+
+import {useStaticQuery} from "gatsby"
+
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import '../../App.css'
+import Img from "gatsby-image"
+
 require('typeface-rubik')
 
 const FlexCol = styled.div`
@@ -48,7 +53,10 @@ const price = {
   paddingBottom: '35px'
 }
 
+
 const IndexPage = () => {
+
+  
 
   const [screenWidth, setScreenWidth] = useState('50%');
   const [windowWidth, setWindowWidth] = useState(0);
@@ -59,6 +67,22 @@ const IndexPage = () => {
       setScreenWidth('100%');
     }
   }, []);
+
+  const data = useStaticQuery(graphql`
+  query {
+    placeholderImage: file(relativePath: { eq: "cover-min.png" }) {
+      childImageSharp {
+        fixed(height: 650,width: 1350) {
+          ...GatsbyImageSharpFixed
+        }
+      }
+    }
+  }
+`)
+
+  
+ console.log(data)
+
 
   return (
     <Layout >
@@ -73,15 +97,16 @@ const IndexPage = () => {
         <Banner windowWidth={windowWidth} />
       </Container>
       <Container>
-        <img
+        <Img
           style={{
             width: '90%',
+            height: "400px",
             borderImageWidth: '2px',
             borderColor: '#00000',
             paddingTop: '70px'
           }}
           alt="squarespace whatsapp"
-          src={"https://firebasestorage.googleapis.com/v0/b/squarespace-chat.appspot.com/o/images%2Fsquarespace-whatsapp.webp?alt=media&token=85316663-0cd5-48a2-b946-4732162fad79"}
+          fixed={data.placeholderImage.childImageSharp.fixed}
         />
       </Container>
 
@@ -179,6 +204,9 @@ const IndexPage = () => {
     </Layout>
   )
 }
+
+
+
 
 const Banner = ({ windowWidth }) => {
   if (windowWidth > 480) {
