@@ -60,6 +60,10 @@ function SEO({ description, lang, meta, title, keywords, url}) {
           content: `website`,
         },
         {
+          property: `og:image`,
+          content: site.siteMetadata.image,
+        },
+        {
           name: `twitter:card`,
           content: `summary_large_image`,
         },
