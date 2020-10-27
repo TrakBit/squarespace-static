@@ -42,6 +42,10 @@ function SEO({ description, lang, meta, title, keywords, url}) {
           content: metaDescription,
         },
         {
+          name: `image`,
+          content: site.siteMetadata.image,
+        },
+        {
           property: `og:title`,
           content: title,
         },
@@ -64,6 +68,10 @@ function SEO({ description, lang, meta, title, keywords, url}) {
         {
           name: `twitter:title`,
           content: title,
+        },
+        {
+          name: `twitter:image`,
+          content: site.siteMetadata.image
         },
         {
           name: `twitter:description`,
