@@ -87,7 +87,7 @@ const IndexPage = () => {
 
       <Container style={{ margin: '0 auto', width: screenWidth }}>
         <h1 style={{ fontWeight: "600", fontSize: '35px', textAlign: 'center', lineHeight: "1.3" }}>
-          But why add a whatsApp chat ?
+          But why add a WhatsApp chat ?
         </h1>
         <div style={{ fontSize: '25px', marginTop: "20px", lineHeight: "1.3" }}>
           Modern online businesses run on<a style={highlight}><b>{' small town rules. '}</b></a>
