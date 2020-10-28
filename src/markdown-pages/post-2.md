@@ -18,7 +18,7 @@ The internet era is bringing the small town rules back. Store's cannot be facele
 SalesJump allows users to integrate WhatsApp chat in squarespace store with their actual picture and the ability to chat to the store owner for any query to **build the bridge of trust**, our chat feature can allow to convert **hype of shopping into actionable purchase** since they know you are there for support and service.
 
 ## Do not fear of the widget damaging your user experience 
-<img src="https://firebasestorage.googleapis.com/v0/b/squarespace-chat.appspot.com/o/images%2Fdesign%20widget.png?alt=media&token=df0f1424-e6ef-4e1b-a14b-1f6e144bdbae" alt="whatsapp squarespace" width="700"/>
+<img src="https://firebasestorage.googleapis.com/v0/b/squarespace-chat.appspot.com/o/images%2Fsquarespace-whatsapp-design-widget.webp?alt=media&token=7cb516c8-8f0a-4460-868f-6438182671f6" alt="whatsapp squarespace" width="700"/>
 
 SalesJump provides store owners a comprehensive designer tool to so you can change nearly every color of the widget so it can gently melt with the store's user experience.
 

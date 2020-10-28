@@ -125,12 +125,47 @@ const IndexPage = () => {
         </div>
       </div>
 
+
+      <div>
+        <h1 style={{ fontWeight: "600", fontSize: '35px', textAlign: 'center', lineHeight: "1.3" }}>
+          Here's our quick to follow guide for setup
+        </h1>
+        <Container style={{ textAlign: 'center'}}>
+          <a
+            style={{ textDecoration: 'none', color: '#000000', minWidth: '140px', maxWidth: '500px'}}
+            href={"https://salesjump.xyz/blog/add-whatsapp-live-chat-squarespace"}
+          >
+            <div className="card">
+              <img
+                src={"https://firebasestorage.googleapis.com/v0/b/squarespace-chat.appspot.com/o/images%2Fsquarespace-whatsapp-design-widget.webp?alt=media&token=7cb516c8-8f0a-4460-868f-6438182671f6"}
+                alt="Avatar"
+                style={{ width: '100%' }}
+              />
+              <Container>
+                <h4>
+                  <b>
+                  A guide on how to integrate whatsapp chat to squarespace for live support
+                    </b>
+                </h4>
+              </Container>
+            </div>
+          </a>
+        </Container>
+      </div>
+
+
+      
+      <div>
+        <br/>
+      <h1 style={{ fontWeight: "600", fontSize: '35px', textAlign: 'center', lineHeight: "1.3" }}>
+          Read more on why you need WhatsApp support for Squarespace
+        </h1>     
       <div className="rcards">
         <div className="rcard">
 
           <Container>
-            <a 
-              style={{ textDecoration: 'none', color: '#000000' }} 
+            <a
+              style={{ textDecoration: 'none', color: '#000000' }}
               href={"https://salesjump.xyz/blog/whatsapp-chat-squarespace"}
             >
               <div className="card">
@@ -153,7 +188,7 @@ const IndexPage = () => {
 
         <div className="rcard">
           <Container>
-            <a 
+            <a
               style={{ textDecoration: 'none', color: '#000000' }}
               href={"https://salesjump.xyz/blog/squarespace-help-chat-live"}
             >
@@ -175,12 +210,41 @@ const IndexPage = () => {
           </Container>
         </div>
       </div>
+      </div>
 
     </Layout>
   )
 }
 
 const Banner = ({ windowWidth }) => {
+  if (windowWidth > 480) {
+    return (
+      <>
+        <h1 style={{ fontSize: '5vw', lineHeight: "1.5", fontWeight: "600" }}>
+          📞 WhatsApp Chat on your
+                  <br />Squarespace online store. 🛍️
+        </h1>
+        <h1 style={{ fontSize: '2vw', lineHeight: "1.5", fontWeight: "600", marginTop: "20px" }}>
+          Add the human touch to your store
+        </h1>
+      </>
+    );
+  } else {
+    return (
+      <>
+        <h1 style={{ fontSize: '9vw', textAlign: 'center', lineHeight: "1.3" }}>
+          📞 WhatsApp Chat on your
+                  <br />Squarespace online store. 🛍️
+        </h1>
+        <h1 style={{ fontSize: '4vw', lineHeight: "1.3" }}>
+          Add the human touch to your store
+        </h1>
+      </>
+    );
+  }
+}
+
+const Guide = ({ windowWidth }) => {
   if (windowWidth > 480) {
     return (
       <>
