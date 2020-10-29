@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useEffect, useState} from 'react';
 import {graphql} from 'gatsby';
 import styled from 'styled-components';
 import Layout from '../components/layout';
@@ -16,11 +16,23 @@ const Container = styled(FlexCol)`
   justify-content: space-between;
 `;
 
+const MobileContainer = styled(FlexCol)`
+  padding: 2rem 2rem 2rem 2rem;
+  align-items: center;
+  justify-content: space-between;
+`;
+
 export default function Template({
     data // this prop will be injected by the GraphQL query below.
 }) {
     const {markdownRemark} = data; // data.markdownRemark holds your post data
     const {frontmatter, html} = markdownRemark;
+    const [windowWidth, setWindowWidth] = useState(0);
+
+    useEffect(() => {
+        setWindowWidth(window.innerWidth);
+    }, []);
+
     return (
         <Layout >
             <SEO
@@ -30,6 +42,18 @@ export default function Template({
                 keywords={['Squarespace', 'Whatsapp']}
                 url={'https://salesjump.xyz' + frontmatter.slug}
             />
+            <Content
+                windowWidth={windowWidth}
+                frontmatter={frontmatter}
+                html={html}
+            />
+        </Layout>
+    );
+}
+
+const Content = ({windowWidth, frontmatter, html}) => {
+    if (windowWidth > 480) {
+        return (
             <Container>
                 <h1 style={{fontSize: '45px', textAlign: 'center', lineHeight: '1.2', fontWeight: '600'}}>
                     {frontmatter.title}
@@ -42,9 +66,24 @@ export default function Template({
                     dangerouslySetInnerHTML={{__html: html}}
                 />
             </Container>
-        </Layout>
-    );
-}
+        );
+    } else {
+        return (
+            <MobileContainer>
+                <h1 style={{fontSize: '30px', textAlign: 'center', lineHeight: '1.2', fontWeight: '600'}}>
+                    {frontmatter.title}
+                </h1>
+                <div>
+                    {frontmatter.date}
+                </div>
+                <div
+                    style={{marginTop: '80px'}}
+                    dangerouslySetInnerHTML={{__html: html}}
+                />
+            </MobileContainer>
+        );
+    }
+};
 
 export const pageQuery = graphql`
   query($slug: String!) {
