@@ -13,7 +13,7 @@ const Header = ({ siteTitle }) => (
 
       <div className='rcards'>
         <div className='rcard'>
-          <Link to={"/"}>
+          <Link to={"/"} style={{ textDecoration: 'none'}}>
             <SvgComponent style={{height: "90px"}}/>
           </Link>
         </div>
