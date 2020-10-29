@@ -144,7 +144,7 @@ const IndexPage = () => {
 
       <div>
         <h1 style={{ fontWeight: "600", fontSize: '35px', textAlign: 'center', lineHeight: "1.3" }}>
-          Here's our quick to follow guide for setup
+          Step by step guide for setup
         </h1>
         <Container style={{ textAlign: 'center'}}>
           <a
