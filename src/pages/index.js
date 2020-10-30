@@ -81,8 +81,8 @@ const IndexPage = () => {
                                 borderColor: '#00000',
                                 paddingTop: '70px'
                             }}
-                            type='image/webp'
-                            srcSet={'https://firebasestorage.googleapis.com/v0/b/squarespace-chat.appspot.com/o/images%2Fsquarespace-whatsapp.webp?alt=media&token=85316663-0cd5-48a2-b946-4732162fad79'}
+                            type='image/avif'
+                            srcSet={'https://firebasestorage.googleapis.com/v0/b/squarespace-chat.appspot.com/o/images%2Fcover-min.avif?alt=media&token=d36fd7f7-595f-4913-b836-b3e67b356e5a'}
                         />
                         <img
                             style={{
@@ -150,8 +150,8 @@ const IndexPage = () => {
                         <div className='card'>
                             <picture>
                                 <source
-                                    srcSet={'https://firebasestorage.googleapis.com/v0/b/squarespace-chat.appspot.com/o/images%2Fsquarespace-whatsapp-design-widget.webp?alt=media&token=7cb516c8-8f0a-4460-868f-6438182671f6'}
-                                    type='image/webp'
+                                    srcSet={'https://firebasestorage.googleapis.com/v0/b/squarespace-chat.appspot.com/o/images%2Fsquarespace-whatsapp-design-widget.avif?alt=media&token=d0d3dc05-d362-4420-a9cf-8f15774034c4'}
+                                    type='image/avif'
                                     style={{width: '100%'}}
                                 />
                                 <img
@@ -191,8 +191,8 @@ const IndexPage = () => {
                                             style={{
                                                 width: '100%'
                                             }}
-                                            type='image/webp'
-                                            srcSet={'https://firebasestorage.googleapis.com/v0/b/squarespace-chat.appspot.com/o/images%2Fsquarespace-whatsapp.webp?alt=media&token=85316663-0cd5-48a2-b946-4732162fad79'}
+                                            type='image/avif'
+                                            srcSet={'https://firebasestorage.googleapis.com/v0/b/squarespace-chat.appspot.com/o/images%2Fcover-min.avif?alt=media&token=d36fd7f7-595f-4913-b836-b3e67b356e5a'}
                                         />
                                         <img
                                             style={{
@@ -226,8 +226,8 @@ const IndexPage = () => {
                                             style={{
                                                 width: '100%'
                                             }}
-                                            type='image/webp'
-                                            srcSet={'https://firebasestorage.googleapis.com/v0/b/squarespace-chat.appspot.com/o/images%2Fsquarespace-whatsapp-widget.webp?alt=media&token=e536f4b6-1ecc-4ef7-bd26-39bc08af2186'}
+                                            type='image/avif'
+                                            srcSet={'https://firebasestorage.googleapis.com/v0/b/squarespace-chat.appspot.com/o/images%2Fsquarespace-whatsapp-widget.avif?alt=media&token=8f0b9ef5-f8cf-4cba-8cb8-380ce691cc67'}
                                         />
                                         <img
                                             style={{
