@@ -252,7 +252,7 @@ const IndexPage = () => {
                 </div>
             </div>
 
-            <div>
+            <div style={{marginBottom: '5%'}}>
                 <h1 style={{fontWeight: '600', fontSize: '35px', textAlign: 'center', lineHeight: '1.3'}}>
                     Guide to SEO your Squarespace store for FREE 🙂
                 </h1>
