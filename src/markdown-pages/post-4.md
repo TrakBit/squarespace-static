@@ -24,7 +24,7 @@ Give a **clear and focused title and description** for every page since google s
 <img src="https://firebasestorage.googleapis.com/v0/b/squarespace-chat.appspot.com/o/images%2Fseo-title-desc.png?alt=media&token=300edc2a-1241-49df-b2ed-3c26cd0de73c" alt="whatsapp-squarespace-title" width="250"/>
 
 #### Need a proof ?
-I recently built a <a href="https://salesjump.xyz/" target="_blank"> **software product**</a> which is aimed at allowing squarespace store owners to embedd WhatsApp chat on their site so I wrote my
+I recently built a <a href="https://salesjump.xyz/" target="_blank"> **software product**</a> which is aimed at allowing Squarespace store owners to embed WhatsApp chat on their site so I wrote my
 - title as *"SalesJump - WhatsApp Chat For Squarespace"* 
 - description as *"WhatsApp Chat For Squarespace | Add WhatsApp To Squarespace"*. 
 
