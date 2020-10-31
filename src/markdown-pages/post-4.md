@@ -40,7 +40,7 @@ I wrote my blogs on Medium and Indiehackers talking about the <a href="https://s
 
 <img src="https://firebasestorage.googleapis.com/v0/b/squarespace-chat.appspot.com/o/images%2Fsearch-result-blog.png?alt=media&token=0853cc4c-c5e0-4d50-aaa1-3886274ee94c" alt="whatsapp-squarespace-blog" width="600"/>
 
-Right below the blog you can write backlink to your squarespace store/site
+Right below the blog you can write backlink to your Squarespace store/site like below
 
 <img src="https://firebasestorage.googleapis.com/v0/b/squarespace-chat.appspot.com/o/images%2Fbacklink.png?alt=media&token=ad9b149c-cfab-4a1b-9975-809774c33f31" alt="whatsapp-squarespace-blog" width="600"/>
 
