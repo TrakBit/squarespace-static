@@ -4,7 +4,7 @@ date: "2020-10-31"
 title: "How to SEO your Squarespace site [2020]: Guide"
 ---
 
-## Actionable guide on how to SEO your Squarspace site.
+## Actionable guide on how to SEO your Squarespace site.
 Welcome to the detailed actionable guide which you can apply today to improve your sqarespace site SEO. We are going to measures the factors by which Google rewards and punishes your site's ranking.
 
 ### 1. Reduce size of images
