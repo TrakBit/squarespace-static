@@ -252,40 +252,6 @@ const IndexPage = () => {
                 </div>
             </div>
 
-            <div style={{marginBottom: '5%'}}>
-                <h1 style={{fontWeight: '600', fontSize: '35px', textAlign: 'center', lineHeight: '1.3'}}>
-                    Guide to SEO your Squarespace store for FREE 🙂
-                </h1>
-                <Container>
-                    <Link
-                        style={{textDecoration: 'none', color: '#000000', minWidth: '140px', maxWidth: '500px'}}
-                        to={'/blog/squarespace-seo-guide'}
-                    >
-                        <div className='card'>
-                            <picture>
-                                <source
-                                    srcSet={'https://firebasestorage.googleapis.com/v0/b/squarespace-chat.appspot.com/o/images%2Fdesktop-score.avif?alt=media&token=dbeabdb1-2f88-4936-9078-a6ac2e934183'}
-                                    type='image/avif'
-                                    style={{width: '100%'}}
-                                />
-                                <img
-                                    src={'https://firebasestorage.googleapis.com/v0/b/squarespace-chat.appspot.com/o/images%2Fdesktop-score.png?alt=media&token=415e759a-189a-4d2a-9504-066ed9b4fde3'}
-                                    alt='squarespace-whatsapp-chat'
-                                    style={{width: '100%'}}
-                                />
-                            </picture>
-                            <Container>
-                                <h4>
-                                    <b>
-                                        How to SEO your Squarespace site [2020]: Guide
-                                    </b>
-                                </h4>
-                            </Container>
-                        </div>
-                    </Link>
-                </Container>
-            </div>
-
         </Layout>
     );
 };
