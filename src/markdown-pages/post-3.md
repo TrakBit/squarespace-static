@@ -1,6 +1,6 @@
 ---
 slug: "/blog/add-whatsapp-live-chat-squarespace"
-date: "2020-10-23"
+date: "2020-10-27"
 title: "How To Add WhatsApp Chat To Squarespace: Guide"
 ---
 
