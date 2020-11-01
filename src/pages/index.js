@@ -252,6 +252,33 @@ const IndexPage = () => {
                 </div>
             </div>
 
+            <div>
+                <h1 style={{fontWeight: '600', fontSize: '35px', textAlign: 'center', lineHeight: '1.3'}}>
+                    Add live chat support to Squarespace. But why?
+                </h1>
+                <Container>
+                    <Link
+                        style={{textDecoration: 'none', color: '#000000', minWidth: '140px', maxWidth: '500px'}}
+                        to={'/blog/squarespace-store-live-chat-support'}
+                    >
+                        <div className='card'>
+                            <div style={{backgroundColor: 'pink'}}>
+                                <h1 style={{fontWeight: '600', fontSize: '150px', paddingTop: '20px', paddingBottom: '20px', textAlign: 'center'}}>
+                                    🧑‍🚀
+                                </h1>
+                            </div>
+                            <Container>
+                                <h4>
+                                    <b>
+                                        Integrating live chat support to your Squarespace isn't just about support
+                                    </b>
+                                </h4>
+                            </Container>
+                        </div>
+                    </Link>
+                </Container>
+            </div>
+
         </Layout>
     );
 };
