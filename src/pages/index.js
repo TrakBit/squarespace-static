@@ -252,7 +252,7 @@ const IndexPage = () => {
                 </div>
             </div>
 
-            <div>
+            <div style={{marginBottom: '5%'}}>
                 <h1 style={{fontWeight: '600', fontSize: '35px', textAlign: 'center', lineHeight: '1.3'}}>
                     Add live chat support to Squarespace. But why?
                 </h1>
