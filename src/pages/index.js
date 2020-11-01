@@ -264,7 +264,7 @@ const IndexPage = () => {
                         <div className='card'>
                             <div style={{backgroundColor: 'pink'}}>
                                 <h1 style={{fontWeight: '600', fontSize: '150px', paddingTop: '20px', paddingBottom: '20px', textAlign: 'center'}}>
-                                    🧑‍🚀
+                                    📞
                                 </h1>
                             </div>
                             <Container>
