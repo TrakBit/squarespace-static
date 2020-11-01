@@ -262,11 +262,22 @@ const IndexPage = () => {
                         to={'/blog/squarespace-store-live-chat-support'}
                     >
                         <div className='card'>
-                            <div style={{backgroundColor: 'pink'}}>
-                                <h1 style={{width: '100%', fontSize: '100px', paddingTop: '20px', paddingBottom: '20px', textAlign: 'center'}}>
-                                    📞
-                                </h1>
-                            </div>
+                            <picture>
+                                <source
+                                    style={{
+                                        width: '100%'
+                                    }}
+                                    type='image/avif'
+                                    srcSet={'https://firebasestorage.googleapis.com/v0/b/squarespace-chat.appspot.com/o/images%2Fsquarespace-whatsapp-support.avif?alt=media&token=c2304f5e-8500-4f4b-96a5-bd61ab71135c'}
+                                />
+                                <img
+                                    style={{
+                                        width: '100%'
+                                    }}
+                                    alt='squarespace-whatsapp'
+                                    src={'https://firebasestorage.googleapis.com/v0/b/squarespace-chat.appspot.com/o/images%2Fsquarespace-whatsapp-support.jpg?alt=media&token=90c525ce-0675-432a-b722-d9b8c8fd3a69'}
+                                />
+                            </picture>
                             <Container>
                                 <h4>
                                     <b>
