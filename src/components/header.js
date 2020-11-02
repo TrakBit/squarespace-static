@@ -1,6 +1,22 @@
 import {Link} from 'gatsby';
 import PropTypes from 'prop-types';
 import React from 'react';
+import styled from 'styled-components';
+
+const OutlineButton = styled.button`
+  height: 42px;
+  width: 100px;
+  background-color: #f4f9f4;
+  color: #00b7c2;
+  border-color: #00b7c2;
+  border-width: 4px;
+  font-weight: 600;
+  font-size: 14px;
+  border-radius: 0.25rem;
+  line-height: 1.5;
+  -webkit-box-shadow: 0 4px 6px rgba(50, 50, 93, 0.11), 0 1px 3px rgba(0, 0, 0, 0.08);
+  box-shadow: 0 4px 6px rgba(50, 50, 93, 0.11), 0 1px 3px rgba(0, 0, 0, 0.08);
+`;
 
 const Header = () => (
     <>
@@ -25,16 +41,15 @@ const Header = () => (
                     <div className='flex-container'>
                         <button
                             className='mybutton'
-                            onClick={() => window.location.href = 'mailto:harsh.vardhan.611@gmail.com'}
-                        >Support</button>
-                        <button
-                            className='mybutton'
                             onClick={() => window.location.href = 'https://app.salesjump.xyz/register'}
                         >Join</button>
                         <button
                             className='mybutton'
                             onClick={() => window.location.href = 'https://app.salesjump.xyz/login'}
                         >Login</button>
+                        <Link to={'/blog'}>
+                            <OutlineButton> Blog</OutlineButton>
+                        </Link>
                     </div>
                 </div>
 
