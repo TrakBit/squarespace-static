@@ -43,3 +43,13 @@ I wrote my blogs on Medium and Indiehackers talking about the <a href="https://s
 Right below the blog you can write backlink to your Squarespace store/site like below
 
 <img src="https://firebasestorage.googleapis.com/v0/b/squarespace-chat.appspot.com/o/images%2Fbacklink.png?alt=media&token=ad9b149c-cfab-4a1b-9975-809774c33f31" alt="whatsapp-squarespace-blog" width="600"/>
+
+### 4. Write images name and alt tags as relevent keywords
+Ensure that all the images have the searched keyword in their image name and alt tags since they are also scanned by Google.
+
+<img src="https://firebasestorage.googleapis.com/v0/b/squarespace-chat.appspot.com/o/images%2Ffile-name.png?alt=media&token=f60f43ea-7b52-48af-935b-d62320342006" alt="whatsapp-squarespace-blog" width="350"/>
+
+You can see how **squarespace-whatsapp** has been added as common keyword pair throughout for my own site since those are the keywords I optimise by site for.
+<img src="https://firebasestorage.googleapis.com/v0/b/squarespace-chat.appspot.com/o/images%2Falt-tag.png?alt=media&token=6cc35fce-cac8-494c-b8b4-d624760bb6b2" alt="whatsapp-squarespace-blog" width="600"/>
+
+Do ensure to add your searched keyword in **alt-tag** and **image-file-name**
