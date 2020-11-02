@@ -36,10 +36,10 @@ export default function Template({
     return (
         <Layout >
             <SEO
-                name={'Whatsapp Chat For Squarespace'}
+                name={'Add WhatsApp To Squarespace'}
                 title={frontmatter.title}
                 description={frontmatter.title}
-                keywords={['Squarespace', 'Whatsapp']}
+                keywords={['Squarespace', 'Whatsapp', 'Support']}
                 url={'https://salesjump.xyz' + frontmatter.slug}
             />
             <Content
