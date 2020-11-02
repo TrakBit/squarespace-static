@@ -62,9 +62,9 @@ const IndexPage = () => {
     return (
         <Layout >
             <SEO
-                name={'Whatsapp Chat For Squarespace'}
-                title={'SalesJump | Whatsapp Chat For Squarespace'}
-                description={'Whatsapp Chat For Squarespace'}
+                name={' Add WhatsApp Chat To Squaresp'}
+                title={'SalesJump |  Add WhatsApp Chat To Squarespce'}
+                description={' Add WhatsApp Chat To Squaresp'}
                 keywords={['Squarespace', 'Whatsapp']}
                 url={'https://salesjump.xyz'}
             />

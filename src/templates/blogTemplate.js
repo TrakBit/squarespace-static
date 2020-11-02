@@ -36,7 +36,7 @@ export default function Template({
     return (
         <Layout >
             <SEO
-                name={'Add WhatsApp To Squarespace'}
+                name={'Add WhatsApp Chat To Squaresp'}
                 title={frontmatter.title}
                 description={frontmatter.title}
                 keywords={['Squarespace', 'Whatsapp', 'Support']}
