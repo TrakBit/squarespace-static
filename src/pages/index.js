@@ -100,30 +100,20 @@ const IndexPage = () => {
             </div>
 
             <Container style={{margin: '0 auto', width: screenWidth}}>
-                <h1 style={{fontWeight: '600', fontSize: '35px', textAlign: 'center', lineHeight: '1.3'}}>
-                    But why add a WhatsApp chat ?
-                </h1>
-                <div style={{fontSize: '25px', marginTop: '20px', lineHeight: '1.3'}}>
-                    Modern online businesses run on<a style={highlight}><b>{' small town rules. '}</b></a>
-                    There needs to be a personal connection between you and the customer.
+                <div style={{fontWeight: '600', fontSize: '35px', textAlign: 'center', lineHeight: '1.3'}}>
+                    What does SalesJump do?
                 </div>
-            </Container>
-
-            <Container style={{margin: '0 auto', width: screenWidth}}>
-                <h1 style={{fontWeight: '600', fontSize: '35px', textAlign: 'center', marginTop: '20px', lineHeight: '1.3'}}>
-                    Your customer have questions and they are looking for answers.
+                <h1 style={{fontSize: '25px', marginTop: '20px', lineHeight: '1.3', textAlign: 'center'}}>
+                    Quick easy solution to integrate Whatsapp widget by adding
+                    <a style={highlight}><b>{' just two lines of code'}</b></a>
+                    <br/>and your live chat support is enabled.
                 </h1>
-                <p style={{fontSize: '25px', marginTop: '20px', lineHeight: '1.3'}}>
-                    Customers wanna know
-                    <a style={highlight}><b>{' if there are more selections '}</b></a>
-                    and <a style={highlight}><b>{' when will it be shipped '}</b></a>, your presence is needed
-                </p>
             </Container>
 
             <Container style={{margin: '0 auto', width: screenWidth}}>
-                <h1 style={{fontSize: '45px', textAlign: 'center', lineHeight: '1.2', fontWeight: '600'}}>
+                <div style={{fontSize: '45px', textAlign: 'center', lineHeight: '1.2', fontWeight: '600'}}>
                     Why wait, when a 2 minute setup is all it takes
-                </h1>
+                </div>
                 <br/>
                 <a href={'https://app.salesjump.xyz/register'}><OutlineButton> JOIN</OutlineButton></a>
                 <br/>
@@ -131,18 +121,20 @@ const IndexPage = () => {
 
             <div style={{textAlign: 'center', backgroundColor: '#f4f9f4', borderRadius: '30px', width: '90%', marginLeft: '5%'}}>
                 <br/>
-                <h1 style={heading}>{'Monthly Subscription'}</h1>
-                <div style={{marginTop: '1%', marginBottom: '5%'}}>
-                    <h1 style={price}>
+                <div style={heading}>{'Monthly Subscription'}</div>
+                <div style={{marginTop: '30px', marginBottom: '5%'}}>
+                    <br/>
+                    <div style={price}>
                         $9
-                    </h1>
+                    </div>
+                    <br/>
                 </div>
             </div>
 
             <div>
-                <h1 style={{fontWeight: '600', fontSize: '35px', textAlign: 'center', lineHeight: '1.3'}}>
+                <div style={{fontWeight: '600', fontSize: '35px', textAlign: 'center', lineHeight: '1.3', marginBottom: '30px'}}>
                     Step by step guide for setup
-                </h1>
+                </div>
                 <Container>
                     <Link
                         style={{textDecoration: 'none', color: '#000000', minWidth: '140px', maxWidth: '500px'}}
@@ -191,9 +183,9 @@ const Banner = ({windowWidth}) => {
                     📞 How To Add WhatsApp Chat
                     <br/>To Squarespace Store? 🛍️
                 </h1>
-                <h1 style={{fontSize: '2vw', lineHeight: '1.5', fontWeight: '600', marginTop: '20px'}}>
+                <div style={{fontSize: '2vw', lineHeight: '1.5', fontWeight: '600', marginTop: '20px'}}>
                     SalesJump Is A Quick Easy Tool For That
-                </h1>
+                </div>
             </>
         );
     } else {
@@ -203,9 +195,9 @@ const Banner = ({windowWidth}) => {
                     📞 How To Add WhatsApp Chat
                     <br/>To Squarespace Store? 🛍️
                 </h1>
-                <h1 style={{fontSize: '4vw', lineHeight: '1.3'}}>
+                <div style={{fontSize: '4vw', lineHeight: '1.3'}}>
                     SalesJump Is A Quick Easy Tool For That
-                </h1>
+                </div>
             </>
         );
     }
