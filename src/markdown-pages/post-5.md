@@ -10,7 +10,7 @@ Welcome to the detailed actionable guide which you can apply today to improve yo
 ### 1. Reduce size of images
 Really? image size. You might be wondering how does that helps in SEO ? well the thing is Google punishes sites with slower performance and they have even rolled out their own <a href="https://developers.google.com/speed/pagespeed/insights" target="_blank"> **tool**</a> which you can use to measure your site's performance.
 
-Below is what the speed index ( time to display all the visible parts) I got with squarespace sample template - 
+Below is what the speed index ( time to display all the visible parts) I got with Squarespace sample template - 
 
 <img src="https://firebasestorage.googleapis.com/v0/b/squarespace-chat.appspot.com/o/images%2Fspeed-index-mobile.png?alt=media&token=0de264cf-21e9-42c9-ae1f-38ff3e33df0e" alt="whatsapp-squarespace-speed" width="700"/>
 
@@ -44,7 +44,7 @@ Right below the blog you can write backlink to your Squarespace store/site like 
 
 <img src="https://firebasestorage.googleapis.com/v0/b/squarespace-chat.appspot.com/o/images%2Fbacklink.png?alt=media&token=ad9b149c-cfab-4a1b-9975-809774c33f31" alt="whatsapp-squarespace-blog" width="600"/>
 
-### 4. Write images name and alt tags as relevent keywords
+### 4. Write images name and alt tags as relevant keywords
 Ensure that all the images have the searched keyword in their image name and alt tags since they are also scanned by Google.
 
 <img src="https://firebasestorage.googleapis.com/v0/b/squarespace-chat.appspot.com/o/images%2Ffile-name.png?alt=media&token=f60f43ea-7b52-48af-935b-d62320342006" alt="whatsapp-squarespace-blog" width="350"/>
