@@ -188,11 +188,11 @@ const Banner = ({windowWidth}) => {
         return (
             <>
                 <h1 style={{fontSize: '5vw', lineHeight: '1.5', fontWeight: '600'}}>
-                    📞 WhatsApp Chat on your
-                    <br/>Squarespace online store. 🛍️
+                    📞 How To Add WhatsApp chat
+                    <br/>to Squarespace store? 🛍️
                 </h1>
                 <h1 style={{fontSize: '2vw', lineHeight: '1.5', fontWeight: '600', marginTop: '20px'}}>
-                    Add the human touch to your store
+                    SalesJump Is A Quick Easy Tool For That
                 </h1>
             </>
         );
@@ -200,11 +200,11 @@ const Banner = ({windowWidth}) => {
         return (
             <>
                 <h1 style={{fontSize: '9vw', textAlign: 'center', lineHeight: '1.3'}}>
-                    📞 WhatsApp Chat on your
-                    <br/>Squarespace online store. 🛍️
+                    📞 How To Add WhatsApp chat
+                    <br/>to Squarespace store? 🛍️
                 </h1>
                 <h1 style={{fontSize: '4vw', lineHeight: '1.3'}}>
-                    Add the human touch to your store
+                    SalesJump Is A Quick Easy Tool For That
                 </h1>
             </>
         );
