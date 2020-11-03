@@ -103,11 +103,11 @@ const IndexPage = () => {
                 <div style={{fontWeight: '600', fontSize: '35px', textAlign: 'center', lineHeight: '1.3'}}>
                     What does SalesJump do?
                 </div>
-                <h1 style={{fontSize: '25px', marginTop: '20px', lineHeight: '1.3', textAlign: 'center'}}>
+                <h2 style={{fontSize: '25px', marginTop: '20px', lineHeight: '1.3', textAlign: 'center'}}>
                     Quick easy solution to integrate Whatsapp widget by adding
                     <a style={highlight}><b>{' just two lines of code'}</b></a>
                     <br/>and your live chat support is enabled.
-                </h1>
+                </h2>
             </Container>
 
             <Container style={{margin: '0 auto', width: screenWidth}}>
