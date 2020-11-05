@@ -11,7 +11,7 @@ import {Helmet} from 'react-helmet';
 import {useStaticQuery, graphql} from 'gatsby';
 import {JsonLd} from './jsonld';
 
-function SEO({description, lang, meta, title, keywords, url}) {
+function SEO({lang, meta, keywords}) {
     const {site} = useStaticQuery(
         graphql`
       query {
@@ -28,15 +28,15 @@ function SEO({description, lang, meta, title, keywords, url}) {
     `
     );
 
-    const metaDescription = description || site.siteMetadata.description;
-    const defaultTitle = site.siteMetadata?.title;
+    const metaDescription = site.siteMetadata.description;
+    const defaultTitle = site.siteMetadata.title;
 
     return (
         <Helmet
             htmlAttributes={{
                 lang
             }}
-            title={title}
+            title={defaultTitle}
             titleTemplate={defaultTitle ? `%s | ${defaultTitle}` : null}
             meta={[
                 {
@@ -49,7 +49,7 @@ function SEO({description, lang, meta, title, keywords, url}) {
                 },
                 {
                     property: 'og:title',
-                    content: title
+                    content: defaultTitle
                 },
                 {
                     property: 'og:description',
@@ -73,7 +73,7 @@ function SEO({description, lang, meta, title, keywords, url}) {
                 },
                 {
                     name: 'twitter:title',
-                    content: title
+                    content: defaultTitle
                 },
                 {
                     name: 'twitter:image',
@@ -85,7 +85,7 @@ function SEO({description, lang, meta, title, keywords, url}) {
                 },
                 {
                     name: 'og:url',
-                    content: url
+                    content: site.siteMetadata.siteUrl
                 }
             ].
                 concat(
@@ -123,10 +123,8 @@ SEO.defaultProps = {
 };
 
 SEO.propTypes = {
-    description: PropTypes.string,
     lang: PropTypes.string,
     meta: PropTypes.arrayOf(PropTypes.object),
-    title: PropTypes.string.isRequired,
     keywords: PropTypes.arrayOf(PropTypes.string)
 };
 

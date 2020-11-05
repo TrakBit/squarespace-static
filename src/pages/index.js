@@ -63,10 +63,7 @@ const IndexPage = () => {
         <Layout >
             <SEO
                 name={' Add WhatsApp Chat To Squaresp'}
-                title={'SalesJump |  Add WhatsApp Chat To Squarespce'}
-                description={' Add WhatsApp Chat To Squaresp'}
                 keywords={['Squarespace', 'Whatsapp']}
-                url={'https://salesjump.xyz'}
             />
             <Container style={{backgroundColor: '#f4f9f4'}}>
                 <Banner windowWidth={windowWidth}/>
