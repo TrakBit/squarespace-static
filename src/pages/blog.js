@@ -57,7 +57,7 @@ const Blog = () => {
                                         />
                                     </picture>
                                     <Container>
-                                        <h2 style={{fontWeight: '500'}}>
+                                        <h2 style={{fontWeight: '500', fontSize: '20px'}}>
                                             WhatsApp Chat For Squarespace
                                         </h2>
                                     </Container>
@@ -90,7 +90,7 @@ const Blog = () => {
                                         />
                                     </picture>
                                     <Container>
-                                        <h2 style={{fontWeight: '500'}}>
+                                        <h2 style={{fontWeight: '500', fontSize: '20px'}}>
                                             Squarespace store owners help your customers by live chat support
                                         </h2>
                                     </Container>
@@ -128,7 +128,7 @@ const Blog = () => {
                                 />
                             </picture>
                             <Container>
-                                <h2 style={{fontWeight: '500'}}>
+                                <h2 style={{fontWeight: '500', fontSize: '20px'}}>
                                     Integrating live chat support to your Squarespace isn't just about support
                                 </h2>
                             </Container>
@@ -160,7 +160,7 @@ const Blog = () => {
                                 />
                             </picture>
                             <Container>
-                                <h2 style={{fontWeight: '500'}}>
+                                <h2 style={{fontWeight: '500', fontSize: '20px'}}>
                                     How to SEO your Squarespace site [2020]: Guide
                                 </h2>
                             </Container>
