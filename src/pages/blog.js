@@ -71,7 +71,7 @@ const Blog = () => {
                         <Container>
                             <Link
                                 style={{textDecoration: 'none', color: '#000000'}}
-                                href={'/blog/squarespace-help-chat-live'}
+                                to={'/blog/squarespace-help-chat-live'}
                             >
                                 <div className='card'>
                                     <picture>
@@ -103,7 +103,6 @@ const Blog = () => {
             </div>
 
             <div style={{marginBottom: '5%'}}>
-
                 <div className='rcards'>
                     <div className='rcard'>
                         <Container>
