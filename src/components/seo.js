@@ -51,6 +51,10 @@ function SEO({lang, meta, keywords, title, description}) {
                     content: site.siteMetadata.image
                 },
                 {
+                    property: 'og:url',
+                    content: site.siteMetadata.siteUrl
+                },
+                {
                     property: 'og:title',
                     content: defaultTitle
                 },
@@ -85,10 +89,6 @@ function SEO({lang, meta, keywords, title, description}) {
                 {
                     name: 'twitter:description',
                     content: metaDescription
-                },
-                {
-                    name: 'og:url',
-                    content: site.siteMetadata.siteUrl
                 }
             ].
                 concat(
