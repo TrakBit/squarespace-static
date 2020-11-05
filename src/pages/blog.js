@@ -25,6 +25,7 @@ const Blog = () => {
                 title={'SalesJump - Add WhatsApp Chat To Squarespace'}
                 description={'Blogs on improving Squarespace customer support by integrating live chat'}
                 keywords={['Squarespace', 'WhatsApp']}
+                url={'https://salesjump.xyz/blog'}
             />
             <div>
                 <br/>

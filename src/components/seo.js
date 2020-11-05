@@ -11,7 +11,7 @@ import {Helmet} from 'react-helmet';
 import {useStaticQuery, graphql} from 'gatsby';
 import {JsonLd} from './jsonld';
 
-function SEO({lang, meta, keywords, title, description}) {
+function SEO({lang, meta, keywords, title, description, url}) {
     const {site} = useStaticQuery(
         graphql`
       query {
@@ -52,7 +52,7 @@ function SEO({lang, meta, keywords, title, description}) {
                 },
                 {
                     property: 'og:url',
-                    content: site.siteMetadata.siteUrl
+                    content: url
                 },
                 {
                     property: 'og:title',
