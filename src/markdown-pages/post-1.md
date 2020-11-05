@@ -2,6 +2,7 @@
 slug: "/blog/whatsapp-chat-squarespace"
 date: "2020-10-20"
 title: "WhatsApp Chat For Squarespace"
+description: "Recently witnessed lot of Squarespace store owners trying to find an intuitive way to avail WhatsApp chat in their store site to improve customer support."
 ---
 
 ## Observation

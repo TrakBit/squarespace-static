@@ -1,4 +1,4 @@
-import React, {useEffect, useState} from 'react';
+import React from 'react';
 import styled from 'styled-components';
 import {Link} from 'gatsby';
 
@@ -18,57 +18,14 @@ const Container = styled(FlexCol)`
   justify-content: space-between;
 `;
 
-const OutlineButton = styled.button`
-  height: 42px;
-  width: 100px;
-  background-color: #FFFFFF;
-  color: #00b7c2;
-  border-color: #00b7c2;
-  border-width: 4px;
-  font-weight: 600;
-  font-size: 14px;
-  border-radius: 0.25rem;
-  line-height: 1.5;
-  -webkit-box-shadow: 0 4px 6px rgba(50, 50, 93, 0.11), 0 1px 3px rgba(0, 0, 0, 0.08);
-  box-shadow: 0 4px 6px rgba(50, 50, 93, 0.11), 0 1px 3px rgba(0, 0, 0, 0.08);
-`;
-
-const highlight = {
-    background: '#b4f2e1',
-    color: '#000000'
-};
-
-const heading = {
-    fontSize: '20px',
-    color: '#525f7f'
-};
-
-const price = {
-    fontSize: '100px',
-    paddingBottom: '35px'
-};
-
 const Blog = () => {
-    const [screenWidth, setScreenWidth] = useState('50%');
-    const [windowWidth, setWindowWidth] = useState(0);
-
-    useEffect(() => {
-        setWindowWidth(window.innerWidth);
-        if (window.innerWidth < 480) {
-            setScreenWidth('100%');
-        }
-    }, []);
-
     return (
         <Layout >
             <SEO
-                name={' Add WhatsApp Chat To Squaresp'}
-                title={'SalesJump |  Add WhatsApp Chat To Squarespce'}
-                description={' Add WhatsApp Chat To Squaresp'}
-                keywords={['Squarespace', 'Whatsapp']}
-                url={'https://salesjump.xyz'}
+                title={'SalesJump - Add WhatsApp Chat To Squarespace'}
+                description={'Integrate WhatsApp Live Chat Widget With Squarespace'}
+                keywords={['Squarespace', 'WhatsApp']}
             />
-
             <div>
                 <br/>
                 <h1 style={{fontWeight: '600', fontSize: '35px', textAlign: 'center', lineHeight: '1.3'}}>
@@ -221,34 +178,6 @@ const Blog = () => {
             </div>
         </Layout>
     );
-};
-
-const Banner = ({windowWidth}) => {
-    if (windowWidth > 480) {
-        return (
-            <>
-                <h1 style={{fontSize: '5vw', lineHeight: '1.5', fontWeight: '600'}}>
-                    📞 WhatsApp Chat on your
-                    <br/>Squarespace online store. 🛍️
-                </h1>
-                <h1 style={{fontSize: '2vw', lineHeight: '1.5', fontWeight: '600', marginTop: '20px'}}>
-                    Add the human touch to your store
-                </h1>
-            </>
-        );
-    } else {
-        return (
-            <>
-                <h1 style={{fontSize: '9vw', textAlign: 'center', lineHeight: '1.3'}}>
-                    📞 WhatsApp Chat on your
-                    <br/>Squarespace online store. 🛍️
-                </h1>
-                <h1 style={{fontSize: '4vw', lineHeight: '1.3'}}>
-                    Add the human touch to your store
-                </h1>
-            </>
-        );
-    }
 };
 
 export default Blog;

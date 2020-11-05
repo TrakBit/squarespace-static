@@ -2,6 +2,7 @@
 slug: "/blog/squarespace-store-live-chat-support"
 date: "2020-11-01"
 title: "Add live chat support to Squarespace. But why?"
+description: "Integrating live chat support to your Squarespace isn't just about support."
 ---
 
 # Integrating live chat support to your Squarespace isn't just about support

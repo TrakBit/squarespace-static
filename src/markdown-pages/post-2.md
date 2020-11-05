@@ -2,6 +2,7 @@
 slug: "/blog/squarespace-help-chat-live"
 date: "2020-10-23"
 title: "Squarespace store owners help your customers by live chat support"
+description: "A tectonic shift in e-commerce is happening, the customers need better support and service in the era social media."
 ---
 
 A tectonic shift in e-commerce is happening, the customers need better support and service in the era social media.

@@ -11,7 +11,7 @@ import {Helmet} from 'react-helmet';
 import {useStaticQuery, graphql} from 'gatsby';
 import {JsonLd} from './jsonld';
 
-function SEO({lang, meta, keywords, title}) {
+function SEO({lang, meta, keywords, title, description}) {
     const {site} = useStaticQuery(
         graphql`
       query {
@@ -40,7 +40,7 @@ function SEO({lang, meta, keywords, title}) {
             meta={[
                 {
                     name: 'description',
-                    content: metaDescription
+                    content: description
                 },
                 {
                     name: 'image',
@@ -118,13 +118,16 @@ SEO.defaultProps = {
     lang: 'en',
     meta: [],
     keywords: [],
+    title: '',
     description: ''
 };
 
 SEO.propTypes = {
     lang: PropTypes.string,
     meta: PropTypes.arrayOf(PropTypes.object),
-    keywords: PropTypes.arrayOf(PropTypes.string)
+    keywords: PropTypes.arrayOf(PropTypes.string),
+    title: PropTypes.string,
+    description: PropTypes.string
 };
 
 export default SEO;

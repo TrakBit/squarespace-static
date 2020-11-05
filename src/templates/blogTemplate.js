@@ -39,6 +39,7 @@ export default function Template({
                 name={'Add WhatsApp Chat To Squaresp'}
                 keywords={['Squarespace', 'Whatsapp', 'Support']}
                 title={'SalesJump - '+ frontmatter.title}
+                description={frontmatter.description}
             />
             <Content
                 windowWidth={windowWidth}
