@@ -178,7 +178,7 @@ const Banner = ({windowWidth}) => {
             <>
                 <h1 style={{fontSize: '5vw', lineHeight: '1.5', fontWeight: '600'}}>
                     📞 How To Add WhatsApp Chat
-                    <br/>To Squarespace Store? 🛍️
+                    <br/> To Squarespace Store? 🛍️
                 </h1>
                 <div style={{fontSize: '2vw', lineHeight: '1.5', fontWeight: '600', marginTop: '20px'}}>
                     SalesJump Is A Quick Easy Tool For That
@@ -190,7 +190,7 @@ const Banner = ({windowWidth}) => {
             <>
                 <h1 style={{fontSize: '9vw', textAlign: 'center', lineHeight: '1.3'}}>
                     📞 How To Add WhatsApp Chat
-                    <br/>To Squarespace Store? 🛍️
+                    <br/> To Squarespace Store? 🛍️
                 </h1>
                 <div style={{fontSize: '4vw', lineHeight: '1.3'}}>
                     SalesJump Is A Quick Easy Tool For That
