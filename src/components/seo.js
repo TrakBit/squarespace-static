@@ -43,6 +43,10 @@ function SEO({lang, meta, keywords, title, description}) {
                     content: description
                 },
                 {
+                    name: 'robots',
+                    content: site.siteMetadata.siteUrl
+                },
+                {
                     name: 'image',
                     content: site.siteMetadata.image
                 },
