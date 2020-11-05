@@ -57,11 +57,9 @@ const Blog = () => {
                                         />
                                     </picture>
                                     <Container>
-                                        <h4>
-                                            <b>
-                                                WhatsApp Chat For Squarespace
-                                            </b>
-                                        </h4>
+                                        <h2 style={{fontWeight: '500'}}>
+                                            WhatsApp Chat For Squarespace
+                                        </h2>
                                     </Container>
                                 </div>
                             </Link>
@@ -92,11 +90,9 @@ const Blog = () => {
                                         />
                                     </picture>
                                     <Container>
-                                        <h4 >
-                                            <b>
-                                                Squarespace store owners help your customers by live chat support
-                                            </b>
-                                        </h4>
+                                        <h2 style={{fontWeight: '500'}}>
+                                            Squarespace store owners help your customers by live chat support
+                                        </h2>
                                     </Container>
                                 </div>
                             </Link>
@@ -132,11 +128,9 @@ const Blog = () => {
                                 />
                             </picture>
                             <Container>
-                                <h4>
-                                    <b>
-                                        Integrating live chat support to your Squarespace isn't just about support
-                                    </b>
-                                </h4>
+                                <h2 style={{fontWeight: '500'}}>
+                                    Integrating live chat support to your Squarespace isn't just about support
+                                </h2>
                             </Container>
                         </div>
                     </Link>
@@ -166,11 +160,9 @@ const Blog = () => {
                                 />
                             </picture>
                             <Container>
-                                <h4>
-                                    <b>
-                                        How to SEO your Squarespace site [2020]: Guide
-                                    </b>
-                                </h4>
+                                <h2 style={{fontWeight: '500'}}>
+                                    How to SEO your Squarespace site [2020]: Guide
+                                </h2>
                             </Container>
                         </div>
                     </Link>
