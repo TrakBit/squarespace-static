@@ -33,13 +33,17 @@ export default function Template({
         setWindowWidth(window.innerWidth);
     }, []);
 
+    const start = html.lastIndexOf('<h1>') + 4;
+    const end = html.lastIndexOf('</h1>');
+    const description = (html.substring(start, end));
+
     return (
         <Layout >
             <SEO
                 name={'Add WhatsApp Chat To Squaresp'}
                 keywords={['Squarespace', 'Whatsapp', 'Support']}
                 title={'SalesJump - '+ frontmatter.title}
-                description={frontmatter.description}
+                description={description}
             />
             <Content
                 windowWidth={windowWidth}
