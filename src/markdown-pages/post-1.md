@@ -5,8 +5,7 @@ title: "WhatsApp Chat For Squarespace"
 description: "Recently witnessed lot of Squarespace store owners trying to find an intuitive way to avail WhatsApp chat in their store site to improve customer support."
 ---
 
-## Observation
-Recently witnessed lot of Squarespace store owners trying to find an intuitive way to avail WhatsApp chat in their store site to improve customer support.
+# Reinventing how Squarespace store owners in an intuitive way avail WhatsApp chat  for live customer support.
 
 ## Existing solutions
 Most of the existing solutions felt too complex for squarespace crowd cause they make them copy paste 100's of lines of JavaScript snippet. Squarespace itself is a simple platform but the add-ons treated the user-base like software developers.
