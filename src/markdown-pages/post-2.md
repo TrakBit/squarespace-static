@@ -4,7 +4,7 @@ date: "2020-10-23"
 title: "Squarespace store owners help your customers by live chat support"
 ---
 
-## A tectonic shift in e-commerce is happening, the customers need better support and service in the era social media.
+### A tectonic shift in e-commerce is happening, the customers need better support and service in the era social media.
 
 ## Your e-commerce site is great but that's just not enough
 Your customer lands on your sleek designed squarespace store browsing through the products. But along with all the hype to shop around they also have the skepticism in their mind which needs to cleared. With users navigating multiple online stores from which one should they really build better expectations. It's time for store owners to rethink is having a sleek design and great products enough to build a loyal customer base ?

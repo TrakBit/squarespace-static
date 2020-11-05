@@ -33,8 +33,8 @@ export default function Template({
         setWindowWidth(window.innerWidth);
     }, []);
 
-    const start = html.lastIndexOf('<h1>') + 4;
-    const end = html.lastIndexOf('</h1>');
+    const start = html.lastIndexOf('<h3>') + 4;
+    const end = html.lastIndexOf('</h3>');
     const description = (html.substring(start, end));
 
     return (
