@@ -42,7 +42,7 @@ module.exports = {
             resolve: 'gatsby-plugin-robots-txt',
             options: {
                 host: 'https://salesjump.xyz',
-                policy: [{userAgent: '*'}]
+                policy: [{userAgent: '*', allow: '/'}]
             }
         },
         {
