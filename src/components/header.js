@@ -37,15 +37,19 @@ const Header = () => (
                 </div>
 
                 <div className='rcard'>
-                    <div className='flex-container'>
-                        <button
-                            className='mybutton'
-                            onClick={() => window.location.href = 'https://app.salesjump.xyz/register'}
-                        >Join</button>
-                        <button
-                            className='mybutton'
-                            onClick={() => window.location.href = 'https://app.salesjump.xyz/login'}
-                        >Login</button>
+                    <div className='flex-container'>              
+                        <a href={'https://app.salesjump.xyz/register'}>
+                            <button
+                                className='mybutton'
+                                onClick={() => window.location.href = ''}
+                            >Join</button>
+                        <a/>
+                        <a href={'https://app.salesjump.xyz/login'}>
+                            <button
+                                className='mybutton'
+                                onClick={() => window.location.href = ''}
+                            >Login</button>
+                        <a/>
                         <Link to={'/blog'}>
                             <OutlineButton> Blog</OutlineButton>
                         </Link>
