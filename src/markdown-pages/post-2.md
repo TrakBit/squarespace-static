@@ -22,7 +22,7 @@ SalesJump allows users to integrate WhatsApp chat in squarespace store with thei
 
 SalesJump provides store owners a comprehensive designer tool to so you can change nearly every color of the widget so it can gently melt with the store's user experience.
 
-### So don't wait and sign up for [SalesJump](https://app.salesjump.xyz/register) today 🙂
+**So don't wait and sign up for [SalesJump](https://app.salesjump.xyz/register) today 🙂**
 
 
 
