@@ -103,7 +103,7 @@ const IndexPage = () => {
                     What does SalesJump do?
                 </div>
                 <h2 style={{fontSize: '25px', marginTop: '20px', lineHeight: '1.3', textAlign: 'center'}}>
-                    Quick easy solution to integrate WhatsApp widget by adding
+                    Quick easy solution to integrate WhatsApp widget in Squarespace by adding
                     <a style={highlight}><b>{' just two lines of code'}</b></a>
                     <br/>and your live chat support is enabled.
                 </h2>
