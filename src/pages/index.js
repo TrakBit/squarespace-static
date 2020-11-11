@@ -100,12 +100,12 @@ const IndexPage = () => {
 
             <Container style={{margin: '0 auto', width: screenWidth}}>
                 <div style={{fontWeight: '600', fontSize: '35px', textAlign: 'center', lineHeight: '1.3'}}>
-                    What does SalesJump do?
+                    What is SalesJump for?
                 </div>
                 <h2 style={{fontSize: '25px', marginTop: '20px', lineHeight: '1.3', textAlign: 'center'}}>
-                    Quick easy solution to integrate WhatsApp widget in Squarespace by adding
-                    <a style={highlight}><b>{' just two lines of code'}</b></a>
-                    <br/>and your live chat support is enabled.
+                    To Integrate WhatsApp widget in Squarespace page by adding
+                    <a style={highlight}><b>{' just two lines of code '}</b></a>
+                    and your chat support is live.
                 </h2>
             </Container>
 
@@ -183,7 +183,7 @@ const Banner = ({windowWidth}) => {
         return (
             <>
                 <h1 style={{textAlign: 'center', fontSize: '5vw', lineHeight: '1.5', fontWeight: '600'}}>
-                    📞 How To Add WhatsApp Chat To Squarespace Store? 🛍️
+                    📞 How To Add WhatsApp Chat To Squarespace Website? 🛍️
                 </h1>
                 <div style={{fontSize: '2vw', lineHeight: '1.5', fontWeight: '600', marginTop: '20px'}}>
                     SalesJump Is A Quick Easy Tool For That
@@ -194,7 +194,7 @@ const Banner = ({windowWidth}) => {
         return (
             <>
                 <h1 style={{fontSize: '9vw', textAlign: 'center', lineHeight: '1.3'}}>
-                    📞 How To Add WhatsApp Chat To Squarespace Store? 🛍️
+                    📞 How To Add WhatsApp Chat To Squarespace Website? 🛍️
                 </h1>
                 <div style={{fontSize: '4vw', lineHeight: '1.3'}}>
                     SalesJump Is A Quick Easy Tool For That
