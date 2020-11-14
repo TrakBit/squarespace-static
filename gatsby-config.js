@@ -18,6 +18,21 @@ module.exports = {
         'gatsby-transformer-sharp',
         'gatsby-plugin-sharp',
         {
+            resolve: 'gatsby-transformer-remark',
+            options: {
+                plugins: [
+                    {
+                        resolve: 'gatsby-remark-images',
+                        options: {
+                            maxWidth: 700,
+                            withWebp: true,
+                            quality: 100
+                        }
+                    }
+                ]
+            }
+        },
+        {
             resolve: 'gatsby-plugin-manifest',
             options: {
                 name: 'gatsby-starter-default',
@@ -37,7 +52,6 @@ module.exports = {
                 path: `${__dirname}/src/markdown-pages`
             }
         },
-        'gatsby-transformer-remark',
         {
             resolve: 'gatsby-plugin-robots-txt',
             options: {
