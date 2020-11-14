@@ -1,5 +1,5 @@
 import React, {useEffect, useState} from 'react';
-import {graphql} from 'gatsby';
+import {graphql, Link} from 'gatsby';
 import styled from 'styled-components';
 import Layout from '../components/layout';
 import SEO from '../components/seo';
@@ -20,6 +20,21 @@ const MobileContainer = styled(FlexCol)`
   padding: 2rem 2rem 2rem 2rem;
   align-items: center;
   justify-content: space-between;
+`;
+
+const OutlineButton = styled.button`
+  height: 42px;
+  width: 150px;
+  background-color: #FFFFFF;
+  color: #00b7c2;
+  border-color: #00b7c2;
+  border-width: 4px;
+  font-weight: 600;
+  font-size: 14px;
+  border-radius: 0.25rem;
+  line-height: 1.5;
+  -webkit-box-shadow: 0 4px 6px rgba(50, 50, 93, 0.11), 0 1px 3px rgba(0, 0, 0, 0.08);
+  box-shadow: 0 4px 6px rgba(50, 50, 93, 0.11), 0 1px 3px rgba(0, 0, 0, 0.08);
 `;
 
 export default function Template({
@@ -69,6 +84,9 @@ const Content = ({windowWidth, frontmatter, html}) => {
                     style={{marginTop: '80px'}}
                     dangerouslySetInnerHTML={{__html: html}}
                 />
+                <Link to={'/blog'}>
+                    <OutlineButton> Read More Blogs</OutlineButton>
+                </Link>
             </Container>
         );
     } else {
@@ -84,6 +102,9 @@ const Content = ({windowWidth, frontmatter, html}) => {
                     style={{marginTop: '80px'}}
                     dangerouslySetInnerHTML={{__html: html}}
                 />
+                <Link to={'/blog'}>
+                    <OutlineButton> Read More Blogs</OutlineButton>
+                </Link>
             </MobileContainer>
         );
     }
