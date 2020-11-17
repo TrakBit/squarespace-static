@@ -173,7 +173,7 @@ const Blog = () => {
                     <Container>
                         <Link
                             style={{textDecoration: 'none', color: '#000000', minWidth: '140px', maxWidth: '500px'}}
-                            to={'/blog/squarespace-membership-subscription-guide'}
+                            to={'/blog/squarespace-membership-subscription'}
                         >
                             <div className='card'>
                                 <picture>

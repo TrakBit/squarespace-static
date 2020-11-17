@@ -1,5 +1,5 @@
 ---
-slug: "/blog/squarespace-membership-subscription-guide"
+slug: "/blog/squarespace-membership-subscription"
 date: "2020-11-17"
 title: "How To Grow Your Squarespace Membership Site: Guide"
 ---
