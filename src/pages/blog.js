@@ -166,6 +166,41 @@ const Blog = () => {
                         </Container>
                     </div>
                 </div>
+            </div>
+
+            <div className='rcards'>
+                <div className='rcard'>
+                    <Container>
+                        <Link
+                            style={{textDecoration: 'none', color: '#000000', minWidth: '140px', maxWidth: '500px'}}
+                            to={'/blog/squarespace-membership-subscription-guide'}
+                        >
+                            <div className='card'>
+                                <picture>
+                                    <source
+                                        style={{
+                                            width: '100%'
+                                        }}
+                                        type='image/avif'
+                                        srcSet={'https://firebasestorage.googleapis.com/v0/b/squarespace-chat.appspot.com/o/images%2Fsquarespace-membership.avif?alt=media&token=efa9b1bd-03b5-4e4b-91b3-555348e421f0'}
+                                    />
+                                    <img
+                                        style={{
+                                            width: '100%'
+                                        }}
+                                        alt='squarespace-whatsapp'
+                                        src={'https://firebasestorage.googleapis.com/v0/b/squarespace-chat.appspot.com/o/images%2Fsquarespace-membership.jpg?alt=media&token=69d797ed-3468-4c8e-a408-7fb36c8cf448'}
+                                    />
+                                </picture>
+                                <Container>
+                                    <h2 style={{fontWeight: '500', fontSize: '20px'}}>
+                                        How To Grow Your Squarespace Membership Site: Guide
+                                    </h2>
+                                </Container>
+                            </div>
+                        </Link>
+                    </Container>
+                </div>
 
             </div>
         </Layout>
