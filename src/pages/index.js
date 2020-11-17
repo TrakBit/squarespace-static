@@ -114,11 +114,11 @@ const IndexPage = () => {
                     Why wait, when a 2 minute setup is all it takes
                 </div>
                 <br/>
-                <a href={'https://app.salesjump.xyz/register'}>
+                <Link to={'https://app.salesjump.xyz/register'}>
                     <OutlineButton>
                         JOIN
                     </OutlineButton>
-                </a>
+                </Link>
                 <br/>
             </Container>
 

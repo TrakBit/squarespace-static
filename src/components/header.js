@@ -38,16 +38,16 @@ const Header = () => (
 
                 <div className='rcard'>
                     <div className='flex-container'>
-                        <a href={'https://app.salesjump.xyz/register'}>
+                        <Link to={'https://app.salesjump.xyz/register'}>
                             <button
                                 className='mybutton'
                             >Join</button>
-                        </a>
-                        <a href={'https://app.salesjump.xyz/login'}>
+                        </Link>
+                        <Link to={'https://app.salesjump.xyz/login'}>
                             <button
                                 className='mybutton'
                             >Login</button>
-                        </a>
+                        </Link>
                         <Link to={'/blog'}>
                             <OutlineButton> Blog</OutlineButton>
                         </Link>
