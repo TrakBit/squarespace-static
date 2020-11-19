@@ -206,7 +206,7 @@ const Blog = () => {
                     <Container>
                         <Link
                             style={{textDecoration: 'none', color: '#000000', minWidth: '140px', maxWidth: '500px'}}
-                            to={'/blog/live-chat-squarespace-phone-support'}
+                            to={'/blog/live-chat-phone-support'}
                         >
                             <div className='card'>
                                 <picture>
