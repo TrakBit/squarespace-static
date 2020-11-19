@@ -202,6 +202,39 @@ const Blog = () => {
                     </Container>
                 </div>
 
+                <div className='rcard'>
+                    <Container>
+                        <Link
+                            style={{textDecoration: 'none', color: '#000000', minWidth: '140px', maxWidth: '500px'}}
+                            to={'/blog/live-chat-squarespace-phone-support'}
+                        >
+                            <div className='card'>
+                                <picture>
+                                    <source
+                                        style={{
+                                            width: '100%'
+                                        }}
+                                        type='image/avif'
+                                        srcSet={'https://firebasestorage.googleapis.com/v0/b/squarespace-chat.appspot.com/o/images%2Fsquarespace-live-chat.avif?alt=media&token=efa9b1bd-03b5-4e4b-91b3-555348e421f0'}
+                                    />
+                                    <img
+                                        style={{
+                                            width: '100%'
+                                        }}
+                                        alt='squarespace-whatsapp'
+                                        src={'https://firebasestorage.googleapis.com/v0/b/squarespace-chat.appspot.com/o/images%2Fsquarespace-live-chat.jpg?alt=media&token=69d797ed-3468-4c8e-a408-7fb36c8cf448'}
+                                    />
+                                </picture>
+                                <Container>
+                                    <h2 style={{fontWeight: '500', fontSize: '20px'}}>
+                                        Live Chat Support or Phone Support in 2021? How About Both?
+                                    </h2>
+                                </Container>
+                            </div>
+                        </Link>
+                    </Container>
+                </div>
+
             </div>
         </Layout>
     );
