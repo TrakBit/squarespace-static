@@ -4,7 +4,9 @@ date: "2020-11-17"
 title: "How To Grow Your Squarespace Membership Site: Guide"
 ---
 
-### Let's Learn how to grow and monetize your Squarespace site with its <a href="https://www.squarespace.com/ecommerce/membership-sites" target="_blank">membership</a> feature. Let's understand what goes behind the subscription paywall and what doesn't.
+### Let's Learn how to grow and monetize your Squarespace site with its membership feature. Let's understand what goes behind the subscription paywall and what doesn't.
+
+**Factors for growth of your Squarespace <a href="https://www.squarespace.com/ecommerce/membership-sites" target="_blank">membership</a> site** -
 
 ## Not everything goes behind the paywall (Freemium Model)
 As <a href="https://github.com/trakbit" target="_blank">someone</a> who has built multiple subscription products, I would strongly recommend not to put all your content behind a paywall. Why? Cause users need to know first **is your product worth paying?** The subscription wall should be placed in front of the most important content/business value.
