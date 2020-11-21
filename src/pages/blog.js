@@ -234,7 +234,41 @@ const Blog = () => {
                         </Link>
                     </Container>
                 </div>
+            </div>
 
+            <div className='rcards'>
+                <div className='rcard'>
+                    <Container>
+                        <Link
+                            style={{textDecoration: 'none', color: '#000000', minWidth: '140px', maxWidth: '500px'}}
+                            to={'/blog/live-chat-support-squarespace-whatsapp-rethink'}
+                        >
+                            <div className='card'>
+                                <picture>
+                                    <source
+                                        style={{
+                                            width: '100%'
+                                        }}
+                                        type='image/avif'
+                                        srcSet={'https://firebasestorage.googleapis.com/v0/b/squarespace-chat.appspot.com/o/images%2Fsquarespace-whatsapp-chat-funnel.avif?alt=media&token=124eee9e-4d95-4f0e-8e32-9c88a90d252e'}
+                                    />
+                                    <img
+                                        style={{
+                                            width: '100%'
+                                        }}
+                                        alt='squarespace-whatsapp'
+                                        src={'https://firebasestorage.googleapis.com/v0/b/squarespace-chat.appspot.com/o/images%2Fsquarespace-whatsapp-chat-funnel.png?alt=media&token=124eee9e-4d95-4f0e-8e32-9c88a90d252e'}
+                                    />
+                                </picture>
+                                <Container>
+                                    <h2 style={{fontWeight: '500', fontSize: '20px'}}>
+                                        Rethinking Live Chat Support For Squarespace
+                                    </h2>
+                                </Container>
+                            </div>
+                        </Link>
+                    </Container>
+                </div>
             </div>
         </Layout>
     );
