@@ -4,7 +4,7 @@ date: "2020-11-21"
 title: "Rethinking Live Chat Support For Squarespace"
 ---
 
-### Future Plans On How Squarespace Buinsesses Can Improve Customer Support Experience Using WhatsApp Live Chat.
+### Future Plans On How Squarespace Buinsesses Can Improve Customer Support Experience Using WhatsApp Live Chat Widget.
 
 ## Problem: Customer support via live chat can be time consuming
 Customer support despite being important has it's own set of  <a href="https://salesjump.xyz/blog/live-chat-phone-support" target="_blank"> **challenges**</a> so it was time to rethink how can I make WhatsApp Chat Widget more effective for the squarespace store owners and their customers. 
