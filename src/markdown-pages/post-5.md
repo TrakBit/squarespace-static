@@ -28,7 +28,7 @@ I recently built a <a href="https://salesjump.xyz/" target="_blank"> **software 
 - title as *"SalesJump - WhatsApp Chat For Squarespace"* 
 - description as *"WhatsApp Chat For Squarespace | Add WhatsApp To Squarespace"*. 
 
-Within merely a month of launch if you <a href="https://www.google.com/search?q=whatsapp+chat+squarespace" target="_blank"> **search in Google for *"whatsapp chat squarespace"***</a> my product is the first result on the third page. (apologies for the self-brag 🙂 and my positioning can change again by the time you try to search)
+Within merely a month of launch if you <a href="https://www.google.com/search?q=whatsapp+chat+squarespace" target="_blank"> **search in Google for *"whatsapp chat squarespace"***</a> my product is the  ̶̶̶f̶̶̶i̶̶̶r̶̶̶s̶̶̶t̶̶̶ ̶̶̶r̶̶̶e̶̶̶s̶̶̶u̶̶̶l̶̶̶t̶̶̶ ̶̶̶o̶̶̶n̶̶̶ ̶̶̶t̶̶̶h̶̶̶e̶̶̶ ̶̶̶t̶̶̶h̶̶̶i̶̶̶r̶̶̶d̶̶̶ ̶̶̶p̶̶̶a̶̶̶g̶̶̶e̶̶̶. (now on sixth position of the second page 🙂 and always bound to change)
 
 ![squarespace-seo-search-result.png](../images/squarespace-seo-search-result.png)
 
