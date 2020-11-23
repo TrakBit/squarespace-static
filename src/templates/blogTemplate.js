@@ -56,7 +56,13 @@ export default function Template({
         <Layout >
             <SEO
                 name={'Add WhatsApp Chat To Squaresp'}
-                keywords={['Squarespace', 'Whatsapp', 'Support']}
+                keywords={[
+                    'How To Add Whatsapp Chat To Squarespace',
+                    'Add WhatsApp Chat To Squarespace',
+                    'Add WhatsApp To Squarespace',
+                    'Whatsapp Chat Squarespace',
+                    'Squarespace WhatsApp Integration'
+                ]}
                 title={'SalesJump - ' + frontmatter.title}
                 description={description}
                 url={'https://salesjump.xyz/blog' + frontmatter.slug}

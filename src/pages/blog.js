@@ -24,7 +24,13 @@ const Blog = () => {
             <SEO
                 title={'SalesJump - Add WhatsApp Chat To Squarespace'}
                 description={'Blogs on improving Squarespace customer support by integrating live chat'}
-                keywords={['Squarespace', 'WhatsApp']}
+                keywords={[
+                    'How To Add Whatsapp Chat To Squarespace',
+                    'Add WhatsApp Chat To Squarespace',
+                    'Add WhatsApp To Squarespace',
+                    'Whatsapp Chat Squarespace',
+                    'Squarespace WhatsApp Integration'
+                ]}
                 url={'https://salesjump.xyz/blog'}
             />
             <div>
