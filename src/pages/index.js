@@ -69,7 +69,8 @@ const IndexPage = () => {
                     'Add WhatsApp Chat To Squarespace',
                     'Add WhatsApp To Squarespace',
                     'Whatsapp Chat Squarespace',
-                    'Squarespace WhatsApp Integration'
+                    'Squarespace WhatsApp Integration',
+                    'Squarespace Chat Plugin'
                 ]}
                 url={'https://salesjump.xyz'}
             />
