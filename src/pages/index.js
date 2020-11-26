@@ -65,7 +65,7 @@ const IndexPage = () => {
                 title={'SalesJump - Add WhatsApp Chat To Squarespace'}
                 description={'Integrate WhatsApp Live Chat Widget With Squarespace'}
                 keywords={[
-                    'How To Add Whatsapp Chat To Squarespace',
+                    'How To Add WhatsApp Chat To Squarespace',
                     'Add WhatsApp Chat To Squarespace',
                     'Add WhatsApp To Squarespace',
                     'Whatsapp Chat Squarespace',
@@ -89,7 +89,7 @@ const IndexPage = () => {
                                 paddingTop: '70px'
                             }}
                             type='image/avif'
-                            srcSet={'https://firebasestorage.googleapis.com/v0/b/squarespace-chat.appspot.com/o/images%2Fcover-min.avif?alt=media&token=d36fd7f7-595f-4913-b836-b3e67b356e5a'}
+                            srcSet={'https://firebasestorage.googleapis.com/v0/b/squarespace-chat.appspot.com/o/images%2Fsquarespace-whatsapp.avif?alt=media&token=a6709bad-b934-4771-9f70-973ae9b6ff90'}
                         />
                         <img
                             style={{
@@ -99,7 +99,7 @@ const IndexPage = () => {
                                 paddingTop: '70px'
                             }}
                             alt='squarespace whatsapp'
-                            src={'https://firebasestorage.googleapis.com/v0/b/squarespace-chat.appspot.com/o/images%2Fsquarespace-whatsapp.png?alt=media&token=12475eb1-d5cd-400f-b996-12ecff1850ef'}
+                            src={'https://firebasestorage.googleapis.com/v0/b/squarespace-chat.appspot.com/o/images%2Fsquarespace-whatsapp.jpg?alt=media&token=51001b99-5a72-415a-8d3b-a72db98fc0d8'}
                         />
                     </picture>
                 </Container>
