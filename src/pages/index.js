@@ -107,10 +107,10 @@ const IndexPage = () => {
 
             <Container style={{margin: '0 auto', width: screenWidth}}>
                 <div style={{fontWeight: '600', fontSize: '35px', textAlign: 'center', lineHeight: '1.3'}}>
-                    What is SalesJump?
+                    What is SalesJump For?
                 </div>
                 <h2 style={{fontSize: '25px', marginTop: '20px', lineHeight: '1.3', textAlign: 'center'}}>
-                    A plugin for Integration of <a style={highlight}><b>WhatsApp live chat widget in Squarespace</b></a>
+                    To integrate <a style={highlight}><b>WhatsApp live chat support in Squarespace</b></a> for better customer service and help
                 </h2>
             </Container>
 
