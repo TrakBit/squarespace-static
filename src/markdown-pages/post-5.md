@@ -28,7 +28,7 @@ I recently built a <a href="https://salesjump.xyz/" target="_blank"> **software 
 - title as *"SalesJump - WhatsApp Chat For Squarespace"* 
 - description as *"WhatsApp Chat For Squarespace | Add WhatsApp To Squarespace"*. 
 
-Within merely a month of launch if you <a href="https://www.google.com/search?q=whatsapp+chat+squarespace" target="_blank"> **search in Google for *"whatsapp chat squarespace"***</a> my product is the  ̶̶̶f̶̶̶i̶̶̶r̶̶̶s̶̶̶t̶̶̶ ̶̶̶r̶̶̶e̶̶̶s̶̶̶u̶̶̶l̶̶̶t̶̶̶ ̶̶̶o̶̶̶n̶̶̶ ̶̶̶t̶̶̶h̶̶̶e̶̶̶ ̶̶̶t̶̶̶h̶̶̶i̶̶̶r̶̶̶d̶̶̶ ̶̶̶p̶̶̶a̶̶̶g̶̶̶e̶̶̶. (now on sixth position of the second page 🙂 and always bound to change)
+Within merely a month of launch if you <a href="https://www.google.com/search?q=whatsapp+chat+squarespace" target="_blank"> **search in Google for *"whatsapp chat squarespace"***</a> my product is the  ̶̶̶f̶̶̶i̶̶̶r̶̶̶s̶̶̶t̶̶̶ ̶̶̶r̶̶̶e̶̶̶s̶̶̶u̶̶̶l̶̶̶t̶̶̶ ̶̶̶o̶̶̶n̶̶̶ ̶̶̶t̶̶̶h̶̶̶e̶̶̶ ̶̶̶t̶̶̶h̶̶̶i̶̶̶r̶̶̶d̶̶̶ ̶̶̶p̶̶̶a̶̶̶g̶̶̶e̶̶̶. (**UPDATE:** now on sixth position of the second page 🙂 and always bound to change)
 
 ![squarespace-seo-search-result.png](../images/squarespace-seo-search-result.png)
 
@@ -55,3 +55,14 @@ You can see how **squarespace-whatsapp** has been added as common keyword pair t
 ![squarespace-seo-alt-tag.png](../images/squarespace-seo-alt-tag.png)
 
 Do ensure to add your searched keyword in **alt-tag** and **image-file-name**
+
+## 5. Use keyword idea tools
+Such tools can give you a quick access to some easy to rank keywords. I personally recommend <a href="https://ahrefs.com/keywords-explorer" target="_blank"> **ahrefs keywords explorer**</a>. It can be a bit expensive, even the cheapest tier is $99/month. But you can simply use their <a href="https://ahrefs.com/start-trial" target="_blank"> **$7 trial for 7 days**</a>  and take a screenshot of the potential keywords like myself for future use 🙂.
+
+![squarespace-whatsapp-keyword.png](../images/squarespace-whatsapp-keyword.png)
+
+**Steps to Use it ?**
+- Enter the keyword you want to optimise for
+- Find the keywords with low KD (keyword Difficulty) - They are the **easiest to SEO**
+- Ensure the keywords have revelance to your business/website/topic - like **squarespace-help**, **squarespace-customer-service** and **squarespace-support** for my case.
+- Use these keywords in your **title**, **description**, **h1** and **h2** tags.
