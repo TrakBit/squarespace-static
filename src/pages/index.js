@@ -139,36 +139,60 @@ const IndexPage = () => {
                 </div>
             </div>
 
-            <div>
-                <div style={{fontWeight: '600', fontSize: '35px', textAlign: 'center', lineHeight: '1.3', marginBottom: '30px'}}>
-                    Step by step guide for setup
+            <div style={{fontWeight: '600', fontSize: '35px', textAlign: 'center', lineHeight: '1.3', marginBottom: '30px'}}>
+                Step by step guide for setup
+            </div>
+
+            <div className='rcards'>
+                <div className='rcard'>
+                    <Container>
+                        <Link
+                            style={{textDecoration: 'none', color: '#000000', minWidth: '140px', maxWidth: '500px'}}
+                            to={'/blog/add-whatsapp-live-chat-squarespace'}
+                        >
+                            <div className='card'>
+                                <picture>
+                                    <source
+                                        srcSet={'https://firebasestorage.googleapis.com/v0/b/squarespace-chat.appspot.com/o/images%2Fsquarespace-whatsapp-design-widget.avif?alt=media&token=d0d3dc05-d362-4420-a9cf-8f15774034c4'}
+                                        type='image/avif'
+                                        style={{width: '100%'}}
+                                    />
+                                    <img
+                                        src={'https://firebasestorage.googleapis.com/v0/b/squarespace-chat.appspot.com/o/images%2Fsquarespace-whatsapp-design-widget.png?alt=media&token=d5dc7cf9-b667-4e00-9573-79f03b80f567'}
+                                        alt='squarespace-whatsapp-chat'
+                                        style={{width: '100%'}}
+                                    />
+                                </picture>
+                                <Container>
+                                    <h3>
+                                        Add WhatsApp Chat To Squarespace: Guide
+                                    </h3>
+                                </Container>
+                            </div>
+                        </Link>
+                    </Container>
                 </div>
-                <Container>
-                    <Link
-                        style={{textDecoration: 'none', color: '#000000', minWidth: '140px', maxWidth: '500px'}}
-                        to={'/blog/add-whatsapp-live-chat-squarespace'}
-                    >
+
+                <div className='rcard'>
+                    <Container>
                         <div className='card'>
-                            <picture>
-                                <source
-                                    srcSet={'https://firebasestorage.googleapis.com/v0/b/squarespace-chat.appspot.com/o/images%2Fsquarespace-whatsapp-design-widget.avif?alt=media&token=d0d3dc05-d362-4420-a9cf-8f15774034c4'}
-                                    type='image/avif'
-                                    style={{width: '100%'}}
-                                />
-                                <img
-                                    src={'https://firebasestorage.googleapis.com/v0/b/squarespace-chat.appspot.com/o/images%2Fsquarespace-whatsapp-design-widget.png?alt=media&token=d5dc7cf9-b667-4e00-9573-79f03b80f567'}
-                                    alt='squarespace-whatsapp-chat'
-                                    style={{width: '100%'}}
-                                />
-                            </picture>
+                            <iframe
+                                style={{width: '100%', height: 290}}
+                                src='https://www.youtube.com/embed/QUGoWPj4l2o'
+                                frameBorder='0'
+                                allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture'
+                                allowFullScreen={true}
+                            />
                             <Container>
-                                <h3>
-                                    Add WhatsApp Chat To Squarespace: Guide
-                                </h3>
+                                <h2 style={{fontWeight: '500', fontSize: '20px'}}>
+                                    <h3>
+                                        Add WhatsApp Chat To Squarespace: Guide [Video]
+                                    </h3>
+                                </h2>
                             </Container>
                         </div>
-                    </Link>
-                </Container>
+                    </Container>
+                </div>
             </div>
 
             <Container>
