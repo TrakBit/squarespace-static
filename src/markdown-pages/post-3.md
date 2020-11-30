@@ -6,7 +6,7 @@ title: "How To Add WhatsApp Chat To Squarespace: Guide"
 
 ### A guide on how to integrate whatsapp chat to squarespace for live support.
 
-# 📹 Video version of the setup:
+## 📹 Video version of the steps below:
 
 `youtube:https://www.youtube.com/embed/QUGoWPj4l2o`
 
