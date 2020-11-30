@@ -28,7 +28,15 @@ module.exports = {
                             withWebp: true,
                             quality: 100
                         }
-                    }
+                    },
+                    {
+                        resolve: 'gatsby-remark-embed-youtube',
+                        options: {
+                            width: 300,
+                            height: 150
+                        }
+                    },
+                    'gatsby-remark-responsive-iframe'
                 ]
             }
         },

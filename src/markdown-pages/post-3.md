@@ -6,6 +6,10 @@ title: "How To Add WhatsApp Chat To Squarespace: Guide"
 
 ### A guide on how to integrate whatsapp chat to squarespace for live support.
 
+# 📹 Video version of the setup:
+
+`youtube:https://www.youtube.com/embed/QUGoWPj4l2o`
+
 ## 1. Sign up for SalesJump from <a href="https://app.salesjump.xyz/register" target="_blank">here</a>
 ![squarespace-whatsapp-signup](../images/squarespace-whatsapp-signup.png)
 
