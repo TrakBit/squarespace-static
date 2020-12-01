@@ -1,6 +1,7 @@
 import React, {useEffect, useState} from 'react';
 import styled from 'styled-components';
 import {Link} from 'gatsby';
+import { LiteYouTubeEmbed } from 'react-lite-youtube-embed';
 
 import Layout from '../components/layout';
 import SEO from '../components/seo';
@@ -176,11 +177,10 @@ const IndexPage = () => {
                 <div className='rcard'>
                     <Container>
                         <div className='card'>
-                            <iframe
+                            <LiteYouTubeEmbed
+                                id='QUGoWPj4l2o'
+                                title='Add WhatsApp Chat To Squarespace'
                                 style={{width: '100%', height: 290}}
-                                src='https://www.youtube.com/embed/QUGoWPj4l2o'
-                                frameBorder='0'
-                                allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture'
                                 allowFullScreen={true}
                             />
                             <Container>
