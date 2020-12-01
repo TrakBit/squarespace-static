@@ -30,7 +30,7 @@ module.exports = {
                         }
                     },
                     {
-                        resolve: 'gatsby-remark-embed-youtube',
+                        resolve: 'gatsby-remark-embed-video-lite',
                         options: {
                             width: 300,
                             height: 150
