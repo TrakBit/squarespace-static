@@ -2,11 +2,15 @@ import React, {useEffect, useState} from 'react';
 import styled from 'styled-components';
 import {Link} from 'gatsby';
 import {LiteYouTubeEmbed} from 'react-lite-youtube-embed';
+import ReactGA from 'react-ga';
 
 import Layout from '../components/layout';
 import SEO from '../components/seo';
 import '../../App.css';
 require('typeface-rubik');
+
+ReactGA.initialize('G-T7WGG97ZQH');
+ReactGA.pageview(window.location.pathname + window.location.search);
 
 const FlexCol = styled.div`
   display: flex;
