@@ -34,6 +34,11 @@ Despite the ease of use you still get to control
 
 ![squarespace-membership-limitation](../images/squarespace-membership-limitation.png)
 
-Squarespace <a href="https://www.squarespace.com/ecommerce/membership-sites" target="_blank">Member Areas</a> is seamless solution to create membership sites. But I felt the pricing is a bit too expensive cause if you need **multiple pricing tier or more than one member area** you need to upgrade your plan from $10 to $20 🙁.
+Squarespace <a href="https://www.squarespace.com/ecommerce/membership-sites" target="_blank">Member Areas</a> is seamless solution to create membership sites. But I felt the pricing is a bit too expensive cause if you need 
+
+- multiple pricing tier 
+- give option to pay monthly or anually for the same tier
+
+you need to upgrade your plan from $10 to $20 🙁.
 
 ## <a href="https://salesjump.xyz/blog/squarespace-membership-subscription" target="_blank">Wanna learn how to grow your squarespace membership site?</a>
