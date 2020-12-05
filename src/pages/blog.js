@@ -275,6 +275,38 @@ const Blog = () => {
                         </Link>
                     </Container>
                 </div>
+                <div className='rcard'>
+                    <Container>
+                        <Link
+                            style={{textDecoration: 'none', color: '#000000', minWidth: '140px', maxWidth: '500px'}}
+                            to={'/blog/squarespace-memeber-areas-review'}
+                        >
+                            <div className='card'>
+                                <picture>
+                                    <source
+                                        style={{
+                                            width: '100%'
+                                        }}
+                                        type='image/avif'
+                                        srcSet={'https://firebasestorage.googleapis.com/v0/b/squarespace-chat.appspot.com/o/images%2Fsquarespace-membership-review.avif?alt=media&token=205a3fa7-7a14-4f96-bc50-bb86dd277a8d'}
+                                    />
+                                    <img
+                                        style={{
+                                            width: '100%'
+                                        }}
+                                        alt='squarespace-whatsapp'
+                                        src={'https://firebasestorage.googleapis.com/v0/b/squarespace-chat.appspot.com/o/images%2Fsquarespace-membership-review.jpg?alt=media&token=fd8d2704-8990-4d64-adda-eaef6701e659'}
+                                    />
+                                </picture>
+                                <Container>
+                                    <h2 style={{fontWeight: '500', fontSize: '20px'}}>
+                                        Setting Up Squarespace Member Areas: Review
+                                    </h2>
+                                </Container>
+                            </div>
+                        </Link>
+                    </Container>
+                </div>
             </div>
         </Layout>
     );
