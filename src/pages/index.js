@@ -9,9 +9,6 @@ import SEO from '../components/seo';
 import '../../App.css';
 require('typeface-rubik');
 
-ReactGA.initialize('G-T7WGG97ZQH');
-ReactGA.pageview(window.location.pathname + window.location.search);
-
 const FlexCol = styled.div`
   display: flex;
   flex-direction: column;
@@ -58,6 +55,8 @@ const IndexPage = () => {
     const [windowWidth, setWindowWidth] = useState(0);
 
     useEffect(() => {
+        ReactGA.initialize('G-T7WGG97ZQH');
+        ReactGA.pageview(window.location.pathname + window.location.search);
         setWindowWidth(window.innerWidth);
         if (window.innerWidth < 480) {
             setScreenWidth('100%');
