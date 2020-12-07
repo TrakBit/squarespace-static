@@ -6,6 +6,8 @@ title: "Setting Up Squarespace Member Areas: Review"
 
 ### Let's see how user friendly is using Squarespace Member Areas. Here's a step by step guide setting up the Membership sites.
 
+`youtube:https://www.youtube.com/embed/bh9RA8c6iMc`
+
 ## 1. Click on Settings ➡️ Member Areas ➡️ Create Member Area.
 ![squarespace-member-areas](../images/squarespace-member-areas.png)
 
