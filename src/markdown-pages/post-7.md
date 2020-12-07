@@ -2,9 +2,8 @@
 slug: "/blog/live-chat-phone-support"
 date: "2020-11-19"
 title: "Live Chat Support Or Phone Support In 2021? How About Both?"
+description: "Why live chat needs to be the priority over the phone support for your online store in 2021."
 ---
-
-### Why live chat needs to be the priority over the phone support for your online store in 2021.
 
 Huh, seriously, it's almost 2021, and you want me to text customers for support rather than just giving a quick call? Well, it's a little more complicated than that.
 

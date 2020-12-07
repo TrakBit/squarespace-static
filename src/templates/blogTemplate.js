@@ -48,10 +48,6 @@ export default function Template({
         setWindowWidth(window.innerWidth);
     }, []);
 
-    const start = html.lastIndexOf('<h3>') + 4;
-    const end = html.lastIndexOf('</h3>');
-    const description = (html.substring(start, end));
-
     return (
         <Layout >
             <SEO
@@ -64,7 +60,7 @@ export default function Template({
                     'Squarespace WhatsApp Integration'
                 ]}
                 title={'SalesJump - ' + frontmatter.title}
-                description={description}
+                description={frontmatter.description}
                 url={'https://salesjump.xyz/blog' + frontmatter.slug}
             />
             <Content
@@ -124,6 +120,7 @@ export const pageQuery = graphql`
         date(formatString: "MMMM DD, YYYY")
         slug
         title
+        description
       }
     }
   }

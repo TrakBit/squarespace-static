@@ -2,9 +2,8 @@
 slug: "/blog/squarespace-memeber-areas-review"
 date: "2020-12-05"
 title: "Setting Up Squarespace Member Areas: Review"
+description: "Step by step guide setting up the Membership sites in Squarespace."
 ---
-
-### Let's see how user friendly is using Squarespace Member Areas. Here's a step by step guide setting up the Membership sites.
 
 `youtube:https://www.youtube.com/embed/bh9RA8c6iMc`
 

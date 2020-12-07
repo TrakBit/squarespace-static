@@ -2,11 +2,8 @@
 slug: "/blog/add-whatsapp-live-chat-squarespace"
 date: "2020-10-27"
 title: "How To Add WhatsApp Chat To Squarespace: Guide"
+description: "A guide on how to integrate whatsapp chat to squarespace for live support."
 ---
-
-### A guide on how to integrate whatsapp chat to squarespace for live support.
-
-## 📹 Video version of the steps below:
 
 `youtube:https://www.youtube.com/embed/QUGoWPj4l2o`
 

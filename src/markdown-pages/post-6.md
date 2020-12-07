@@ -2,9 +2,8 @@
 slug: "/blog/squarespace-membership-subscription"
 date: "2020-11-17"
 title: "How To Grow Your Squarespace Membership Site: Guide"
+description: "Let's Learn how to grow and monetize your Squarespace site with its membership feature. Let's understand what goes behind the subscription paywall and what doesn't."
 ---
-
-### Let's Learn how to grow and monetize your Squarespace site with its membership feature. Let's understand what goes behind the subscription paywall and what doesn't.
 
 **Factors for growth of your Squarespace <a href="https://www.squarespace.com/ecommerce/membership-sites" target="_blank">membership</a> site** -
 

@@ -2,9 +2,8 @@
 slug: "/blog/squarespace-seo-guide"
 date: "2020-10-31"
 title: "How to SEO your Squarespace site [2020]: Guide"
+description: "Detailed actionable guide which you can apply today to improve your Squarespace site SEO. We are going to measures the factors by which Google rewards and punishes your site's ranking."
 ---
-
-### Welcome to the detailed actionable guide which you can apply today to improve your Squarespace site SEO. We are going to measures the factors by which Google rewards and punishes your site's ranking.
 
 ## 1. Reduce size of images
 Really? image size. You might be wondering how does that helps in SEO ? well the thing is Google punishes sites with slower performance and they have even rolled out their own <a href="https://developers.google.com/speed/pagespeed/insights" target="_blank"> **tool**</a> which you can use to measure your site's performance.
