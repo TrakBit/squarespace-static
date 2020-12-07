@@ -2,7 +2,6 @@ import React, {useEffect, useState} from 'react';
 import styled from 'styled-components';
 import {Link} from 'gatsby';
 import {LiteYouTubeEmbed} from 'react-lite-youtube-embed';
-import ReactGA from 'react-ga';
 
 import Layout from '../components/layout';
 import SEO from '../components/seo';
