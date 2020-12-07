@@ -73,6 +73,12 @@ module.exports = {
                 siteUrl: 'https://salesjump.xyz'
             }
         },
-        'gatsby-plugin-sitemap'
+        'gatsby-plugin-sitemap',
+        {
+            resolve: 'gatsby-plugin-google-analytics',
+            options: {
+                trackingId: 'G-T7WGG97ZQH'
+            }
+        }
     ]
 };
