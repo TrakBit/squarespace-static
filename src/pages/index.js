@@ -67,12 +67,12 @@ const IndexPage = () => {
         <Layout >
             <SEO
                 title={'SalesJump - Add WhatsApp Chat To Squarespace'}
-                description={'Integrate WhatsApp Live Chat Support Widget In Squarespace For Customer Service And Help'}
+                description={'Integrate WhatsApp Live Chat Support Button Widget In Squarespace Page For Customer Service And Help'}
                 keywords={[
                     'How To Add WhatsApp Chat To Squarespace',
                     'Add WhatsApp Chat To Squarespace',
                     'Add WhatsApp To Squarespace',
-                    'Whatsapp Chat Squarespace',
+                    'Whatsapp Chat Button Squarespace',
                     'Squarespace WhatsApp Integration',
                     'Squarespace Chat Plugin'
                 ]}
@@ -114,7 +114,7 @@ const IndexPage = () => {
                     What is SalesJump For?
                 </div>
                 <h2 style={{fontSize: '25px', marginTop: '20px', lineHeight: '1.3', textAlign: 'center'}}>
-                    To integrate <a style={highlight}><b>WhatsApp live chat support in Squarespace</b></a> for better customer service and help
+                    To integrate <a style={highlight}><b>WhatsApp live chat support button in Squarespace page</b></a> for better customer service and help
                 </h2>
             </Container>
 
