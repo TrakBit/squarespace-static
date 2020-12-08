@@ -7,6 +7,14 @@ module.exports = {
         image: 'https://firebasestorage.googleapis.com/v0/b/squarespace-chat.appspot.com/o/images%2Fcover-min.png?alt=media&token=744d3e0d-7045-4fed-876e-09800b543d07'
     },
     plugins: [
+        {
+            resolve: 'gatsby-plugin-google-analytics',
+            options: {
+                trackingId: 'G-T7WGG97ZQH',
+                head: true,
+                anonymize: true
+            }
+        },
         'gatsby-plugin-react-helmet',
         {
             resolve: 'gatsby-source-filesystem',
@@ -73,14 +81,6 @@ module.exports = {
                 siteUrl: 'https://salesjump.xyz'
             }
         },
-        'gatsby-plugin-sitemap',
-        {
-            resolve: 'gatsby-plugin-google-analytics',
-            options: {
-                trackingId: 'G-T7WGG97ZQH',
-                head: true,
-                anonymize: true
-            }
-        }
+        'gatsby-plugin-sitemap'
     ]
 };
