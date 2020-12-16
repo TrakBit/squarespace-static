@@ -64,7 +64,7 @@ const IndexPage = () => {
         <Layout >
             <SEO
                 title={'SalesJump - Add WhatsApp Chat To Squarespace'}
-                description={'How To Add WhatsApp Chat To Squarespace Page'}
+                description={'Integrate WhatsApp Live Chat Widget In Squarespace For Customer Support & Help'}
                 keywords={[
                     'How To Add WhatsApp Chat To Squarespace',
                     'Add WhatsApp Chat To Squarespace',
